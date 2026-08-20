@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Get involved with BMCTG — become a member, volunteer or partner with us to empower the deaf and mute community in Gandhinagar, Gujarat.">
+<title>Get Involved | BMCTG</title>
+<link rel="icon" href="Group 86.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<div class="preloader" id="preloader"><div class="preloader-spinner"></div></div>
+
+<header class="topbar">
+  <div class="container">
+    <div class="topbar-left">
+      <span>Serving the Deaf &amp; Mute Community • Gandhinagar, Gujarat</span>
+      <span>Registered Trust • Reg No. A/1075</span>
+    </div>
+    <div class="topbar-right">
+      <div class="lang-switch">
+        <button class="active">ગુજરાતી</button>
+        <button>English</button>
+        <button>ISL</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<nav id="navbar">
+  <div class="container navin">
+    <a href="index.html" class="logo" aria-label="BMCTG home">
+      <img src="Group 86.png" alt="BMCTG Logo" class="logo-img">
+      <div>BMCTG<small>Charitable Trust</small></div>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="sports.html">Sports</a>
+      <a href="impact.html">Impact</a>
+      <a href="get-involved.html" class="active">Get Involved</a>
+      <a href="donate.html" class="btn btn-accent btn-sm">Donate</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<main id="main">
+
+<!-- ===== PAGE HERO ===== -->
+<section class="page-hero">
+  <div class="container">
+    <h1 class="reveal">Get Involved</h1>
+    <p class="reveal delay-1">Be Part of the Movement</p>
+  </div>
+</section>
+
+<!-- ===== MEMBERSHIP ===== -->
+<section class="get-involved-section">
+  <div class="container">
+    <div class="section-center reveal">
+      <div class="section-tag">Membership</div>
+      <h2 class="section-title">Become a BMCTG Member</h2>
+      <p class="section-desc">Join our growing community of individuals committed to making a difference. As a BMCTG member, you gain access to exclusive events, training opportunities and the chance to be part of real change for the deaf and mute community in Gandhinagar.</p>
+    </div>
+    <div class="involve-grid">
+      <div class="involve-card reveal delay-1">
+        <div class="involve-icon">🤝</div>
+        <h3>Community Participation</h3>
+        <p>Engage with the deaf and mute community through regular meetups, gatherings and social events that foster belonging.</p>
+      </div>
+      <div class="involve-card reveal delay-2">
+        <div class="involve-icon">🏆</div>
+        <h3>Sports Activities</h3>
+        <p>Take part in deaf sports tournaments, training camps and inter-community athletic competitions across Gujarat.</p>
+      </div>
+      <div class="involve-card reveal delay-3">
+        <div class="involve-icon">🎉</div>
+        <h3>Events</h3>
+        <p>Attend and help organise cultural celebrations, festivals, awareness drives and community outreach programmes.</p>
+      </div>
+      <div class="involve-card reveal delay-1">
+        <div class="involve-icon">📚</div>
+        <h3>Training Opportunities</h3>
+        <p>Access skill development workshops, vocational training and personal growth programmes designed for our community.</p>
+      </div>
+      <div class="involve-card reveal delay-2">
+        <div class="involve-icon">🧠</div>
+        <h3>Workshops</h3>
+        <p>Participate in Indian Sign Language workshops, deaf culture sessions and inclusive communication training.</p>
+      </div>
+      <div class="involve-card reveal delay-3">
+        <div class="involve-icon">🌐</div>
+        <h3>Networking</h3>
+        <p>Connect with like-minded individuals, organisations and professionals who share our vision of inclusion.</p>
+      </div>
+      <div class="involve-card reveal delay-1">
+        <div class="involve-icon">🪪</div>
+        <h3>Member ID</h3>
+        <p>Receive an official BMCTG membership card that gives you access to all trust events and partner benefits.</p>
+      </div>
+      <div class="involve-card reveal delay-2">
+        <div class="involve-icon">📜</div>
+        <h3>Participation Certificates</h3>
+        <p>Earn recognised certificates for your involvement in programmes, workshops and community service activities.</p>
+      </div>
+    </div>
+    <div class="section-center mt-5 reveal">
+      <a href="contact.html" class="btn btn-primary btn-lg">Become a Member</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== VOLUNTEER ===== -->
+<section class="get-involved-section section--soft">
+  <div class="container">
+    <div class="section-center reveal">
+      <div class="section-tag accent">Volunteer</div>
+      <h2 class="section-title">Be Part of the Movement</h2>
+      <p class="section-desc">Your time and skills can create real impact. Volunteer with BMCTG and help us build a more inclusive world for the deaf and mute community. Whether you have an hour or a weekend, there is a role for you.</p>
+    </div>
+    <div class="involve-grid">
+      <div class="involve-card reveal delay-1">
+        <div class="involve-icon">🏅</div>
+        <h3>Sports Events</h3>
+        <p>Help organise and manage deaf sports tournaments, training sessions and athletic meets across the region.</p>
+      </div>
+      <div class="involve-card reveal delay-2">
+        <div class="involve-icon">📷</div>
+        <h3>Photography &amp; Video</h3>
+        <p>Capture moments from our events and programmes to share our story and raise awareness through visual media.</p>
+      </div>
+      <div class="involve-card reveal delay-3">
+        <div class="involve-icon">🎨</div>
+        <h3>Graphic Design</h3>
+        <p>Create posters, social media content and visual materials that help communicate our mission to a wider audience.</p>
+      </div>
+      <div class="involve-card reveal delay-1">
+        <div class="involve-icon">💻</div>
+        <h3>Website &amp; Social Media</h3>
+        <p>Support our digital presence by managing our website content, social media accounts and online outreach efforts.</p>
+      </div>
+      <div class="involve-card reveal delay-2">
+        <div class="involve-icon">📋</div>
+        <h3>Event Management</h3>
+        <p>Plan, coordinate and execute community events, awareness campaigns and large-scale gatherings for the trust.</p>
+      </div>
+      <div class="involve-card reveal delay-3">
+        <div class="involve-icon">🎓</div>
+        <h3>Education Programs</h3>
+        <p>Assist in teaching, mentoring and tutoring deaf students across our education and life-skills programmes.</p>
+      </div>
+      <div class="involve-card reveal delay-1">
+        <div class="involve-icon">🤟</div>
+        <h3>Sign-Language Awareness</h3>
+        <p>Help spread Indian Sign Language awareness through workshops, school visits and community outreach drives.</p>
+      </div>
+      <div class="involve-card reveal delay-2">
+        <div class="involve-icon">💝</div>
+        <h3>Fundraising</h3>
+        <p>Organise and participate in fundraising campaigns that directly support our programmes and community initiatives.</p>
+      </div>
+    </div>
+    <div class="section-center mt-5 reveal">
+      <a href="contact.html" class="btn btn-accent btn-lg">Become a Volunteer</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PARTNERSHIP ===== -->
+<section class="get-involved-section">
+  <div class="container">
+    <div class="section-center reveal">
+      <div class="section-tag purple">Partners</div>
+      <h2 class="section-title">Partner With Us</h2>
+      <p class="section-desc">We believe in the power of collaboration. Whether you are a corporation fulfilling CSR goals, a school looking to create inclusive spaces, or an individual who wants to support our cause — there is a partnership model that works for you.</p>
+    </div>
+    <div class="partnership-types">
+      <div class="partnership-card reveal delay-1">
+        <div class="partnership-card__icon">🏢</div>
+        <div>
+          <h3>Corporate CSR</h3>
+          <p>Fulfil your corporate social responsibility goals while creating meaningful impact. Partner with BMCTG to fund education, sports and welfare programmes for the deaf and mute community. All contributions are eligible under Section 80G.</p>
+        </div>
+      </div>
+      <div class="partnership-card reveal delay-2">
+        <div class="partnership-card__icon">🏫</div>
+        <div>
+          <h3>School Partnerships</h3>
+          <p>Create inclusive learning environments by partnering with us. We provide sign-language training, deaf culture workshops and accessibility consultation to help schools welcome every student.</p>
+        </div>
+      </div>
+      <div class="partnership-card reveal delay-3">
+        <div class="partnership-card__icon">🏛️</div>
+        <div>
+          <h3>Government Programs</h3>
+          <p>Collaborate with BMCTG on government-led disability welfare and inclusion initiatives. We work closely with state and local bodies to expand the reach of public programmes for the deaf community.</p>
+        </div>
+      </div>
+      <div class="partnership-card reveal delay-1">
+        <div class="partnership-card__icon">❤️</div>
+        <div>
+          <h3>Individual Supporters</h3>
+          <p>Whether through monthly contributions, in-kind donations or offering your professional skills, individual supporters are the backbone of our mission. Every effort counts.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="cta-section">
+  <div class="container">
+    <h2 class="reveal">Ready to Make a Difference?</h2>
+    <p class="reveal delay-1">Join the BMCTG community today. Whether you become a member, volunteer your time or partner with us — every action brings us closer to a more inclusive world.</p>
+    <div class="cta-actions reveal delay-2">
+      <a href="contact.html" class="btn btn-white btn-lg">Contact Us</a>
+      <a href="donate.html" class="btn btn-outline btn-lg" style="color:#fff;border-color:rgba(255,255,255,.3)">Donate Now</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container footer-grid">
+    <div class="reveal">
+      <h3>Badhir Mandal Charitable Trust</h3>
+      <p>Supporting, educating and empowering the deaf and mute community in Gandhinagar through accessible and community-focused initiatives.</p>
+      <p><strong>Registration No. A/1075</strong></p>
+      <div class="footer-social mt-3">
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="YouTube">YT</a>
+      </div>
+    </div>
+    <div class="reveal delay-1">
+      <h4 style="color:var(--white);font-size:1rem;font-weight:700;margin-bottom:20px">Explore</h4>
+      <div class="footer-links">
+        <a href="about.html">About Us</a>
+        <a href="programs.html">Our Programs</a>
+        <a href="sports.html">Sports</a>
+        <a href="get-involved.html">Get Involved</a>
+        <a href="donate.html">Donate</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="reveal delay-2">
+      <h4 style="color:var(--white);font-size:1rem;font-weight:700;margin-bottom:20px">Get Involved</h4>
+      <div class="footer-links">
+        <a href="get-involved.html#membership">Become a Member</a>
+        <a href="get-involved.html#volunteer">Volunteer</a>
+        <a href="get-involved.html#partnership">Partner With Us</a>
+        <a href="donate.html">Donate</a>
+      </div>
+    </div>
+    <div class="reveal delay-3">
+      <h4 style="color:var(--white);font-size:1rem;font-weight:700;margin-bottom:20px">Contact</h4>
+      <div class="footer-links">
+        <a href="mailto:badhirmorgujarat@gmail.com">badhirmorgujarat@gmail.com</a>
+        <a href="tel:+919925043716">+91 99250 43716</a>
+        <span style="color:rgba(255,255,255,.5);font-size:.88rem">Gandhinagar, Gujarat, India</span>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>&copy; <span id="year"></span> BMCTG. All rights reserved.</span>
+    <span>Built for accessibility, transparency and community.</span>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
+<script src="script.js"></script>
+</body>
+</html>
