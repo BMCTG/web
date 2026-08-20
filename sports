@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Deaf Sports | BMCTG — Badhir Mandal Charitable Trust</title>
+<meta name="description" content="Deaf Sports development program by Badhir Mandal Charitable Trust (BMCTG) — training, tournaments and empowerment for deaf athletes in Gandhinagar, Gujarat. Registration No. A/1075."/>
+<link rel="icon" href="Group 86.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<!-- ===== 1. Preloader ===== -->
+<div class="preloader" id="preloader"><div class="preloader-spinner"></div></div>
+
+<!-- ===== 2. Topbar ===== -->
+<header class="topbar">
+  <div class="container">
+    <div class="topbar-left">
+      <span>BMCTG — Together We Rise</span>
+      <span>Gandhinagar, Gujarat</span>
+    </div>
+    <div class="topbar-right">
+      <div class="lang-switch">
+        <button class="active">ગુજરાતી</button>
+        <button>English</button>
+        <button>ISL</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===== 3. Navbar ===== -->
+<nav id="navbar">
+  <div class="container navin">
+    <a href="index.html" class="logo">
+      <img src="Group 86.png" alt="BMCTG Logo" class="logo-img"/>
+      <div>BMCTG<small>Charitable Trust</small></div>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="index.html#deaf-culture">Deaf Culture</a>
+      <a href="sports.html" class="active">Sports</a>
+      <a href="programs.html">Programs</a>
+      <a href="index.html#activities">Activities</a>
+      <a href="index.html#impact">Impact</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="donate.html" class="btn btn-accent btn-sm">Donate</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- ===== 4. Page Hero ===== -->
+<section class="page-hero">
+  <div class="container">
+    <h1 class="reveal">Deaf Sports</h1>
+    <p class="reveal delay-1">Play. Compete. Inspire.</p>
+  </div>
+</section>
+
+<!-- ===== 5. Sports Hero Banner ===== -->
+<section class="sports" id="sports">
+  <div class="container">
+
+    <div class="sports-hero-banner reveal">
+      <div class="section-tag">Deaf Sports Development Program</div>
+      <h2>Empowering Deaf Athletes Through Sport</h2>
+      <p>From local tournaments to national competitions, our athletes are proving that hearing loss is no barrier to excellence. The Deaf Sports Development Program provides structured training, coaching, and competitive opportunities for deaf and mute athletes across Gandhinagar and Gujarat.</p>
+      <div class="sports-visual">
+        <div class="sports-badge">🏅</div>
+        <div class="sports-ring">
+          <strong>25+</strong>
+          <span>Athletes</span>
+        </div>
+      </div>
+      <a href="#sports-grid" class="btn btn-white btn-md mt-4">Explore Programs</a>
+    </div>
+
+    <!-- ===== 6. Sports Grid — 8 Sport Cards ===== -->
+    <div class="section-center reveal" style="margin-top:60px">
+      <div class="section-tag accent">Our Sports</div>
+      <h2 class="section-title">Sports we train and compete in</h2>
+      <p class="section-desc">From outdoor team sports to indoor strategy games, our deaf athletes train and compete across a wide range of disciplines.</p>
+    </div>
+
+    <div class="sports-grid" id="sports-grid">
+      <div class="sport-card reveal delay-1">
+        <div class="sport-emoji">🏏</div>
+        <h4>Cricket</h4>
+        <p>Team building and community sport</p>
+      </div>
+      <div class="sport-card reveal delay-2">
+        <div class="sport-emoji">⚽</div>
+        <h4>Football</h4>
+        <p>Team coordination and fitness</p>
+      </div>
+      <div class="sport-card reveal delay-3">
+        <div class="sport-emoji">🏸</div>
+        <h4>Badminton</h4>
+        <p>Training and tournament participation</p>
+      </div>
+      <div class="sport-card reveal delay-4">
+        <div class="sport-emoji">🏃</div>
+        <h4>Athletics</h4>
+        <p>Track and field training and competition</p>
+      </div>
+      <div class="sport-card reveal delay-1">
+        <div class="sport-emoji">🏊</div>
+        <h4>Swimming</h4>
+        <p>Aquatic skills and fitness training</p>
+      </div>
+      <div class="sport-card reveal delay-2">
+        <div class="sport-emoji">♟️</div>
+        <h4>Chess</h4>
+        <p>Strategic thinking and competition</p>
+      </div>
+      <div class="sport-card reveal delay-3">
+        <div class="sport-emoji">🏐</div>
+        <h4>Volleyball</h4>
+        <p>Teamwork and athletic skill development</p>
+      </div>
+      <div class="sport-card reveal delay-4">
+        <div class="sport-emoji">🏓</div>
+        <h4>Table Tennis</h4>
+        <p>Quick reflexes and precision play</p>
+      </div>
+    </div>
+
+    <!-- ===== 7. Detailed Sport Cards ===== -->
+    <div class="section-center reveal" style="margin-top:60px">
+      <div class="section-tag purple">Training Programs</div>
+      <h2 class="section-title">In-depth sports programs</h2>
+      <p class="section-desc">Each sport has dedicated coaching, regular training sessions, and pathways to competitive tournaments at district, state and national levels.</p>
+    </div>
+
+    <!-- Cricket -->
+    <div class="sport-detail reveal">
+      <div class="sport-detail-icon">🏏</div>
+      <div class="sport-detail-content">
+        <h4>Cricket Program</h4>
+        <p>Our cricket program is one of the most popular sports initiatives at BMCTG. We train deaf athletes in batting, bowling, and fielding techniques while fostering teamwork and sportsmanship through regular practice sessions and inter-club friendly matches.</p>
+        <div class="sport-tags">
+          <span class="sport-tag">Training</span>
+          <span class="sport-tag">Coaches</span>
+          <span class="sport-tag">Players</span>
+          <span class="sport-tag">Tournaments</span>
+        </div>
+      </div>
+      <div class="sport-actions">
+        <a href="contact.html" class="btn btn-primary btn-sm">Meet Our Players</a>
+        <a href="contact.html" class="btn btn-outline btn-sm">Upcoming Matches</a>
+      </div>
+    </div>
+
+    <!-- Football -->
+    <div class="sport-detail reveal delay-1">
+      <div class="sport-detail-icon">⚽</div>
+      <div class="sport-detail-content">
+        <h4>Football Program</h4>
+        <p>Deaf football players communicate through sign language on the pitch, creating a unique and powerful form of teamwork. Our football program offers structured training in passing, dribbling, and tactical awareness, preparing teams for inter-state deaf football tournaments.</p>
+        <div class="sport-tags">
+          <span class="sport-tag">Training</span>
+          <span class="sport-tag">Coaches</span>
+          <span class="sport-tag">Players</span>
+          <span class="sport-tag">Tournaments</span>
+        </div>
+      </div>
+      <div class="sport-actions">
+        <a href="contact.html" class="btn btn-primary btn-sm">Meet Our Players</a>
+        <a href="contact.html" class="btn btn-outline btn-sm">Upcoming Matches</a>
+      </div>
+    </div>
+
+    <!-- Badminton -->
+    <div class="sport-detail reveal delay-2">
+      <div class="sport-detail-icon">🏸</div>
+      <div class="sport-detail-content">
+        <h4>Badminton Program</h4>
+        <p>Badminton is one of the fastest-growing sports in the deaf community of Gujarat. Our program covers singles and doubles techniques, footwork drills, and match strategy. Players train regularly and participate in local and state-level deaf badminton championships.</p>
+        <div class="sport-tags">
+          <span class="sport-tag">Training</span>
+          <span class="sport-tag">Coaches</span>
+          <span class="sport-tag">Players</span>
+          <span class="sport-tag">Tournaments</span>
+        </div>
+      </div>
+      <div class="sport-actions">
+        <a href="contact.html" class="btn btn-primary btn-sm">Meet Our Players</a>
+        <a href="contact.html" class="btn btn-outline btn-sm">Upcoming Matches</a>
+      </div>
+    </div>
+
+    <!-- Athletics -->
+    <div class="sport-detail reveal delay-3">
+      <div class="sport-detail-icon">🏃</div>
+      <div class="sport-detail-content">
+        <h4>Athletics Program</h4>
+        <p>Our athletics program covers sprinting, long-distance running, relay races, and field events like long jump and shot put. Athletes train rigorously and represent Gujarat at national deaf sports meets, building endurance, speed, and competitive spirit.</p>
+        <div class="sport-tags">
+          <span class="sport-tag">Training</span>
+          <span class="sport-tag">Coaches</span>
+          <span class="sport-tag">Players</span>
+          <span class="sport-tag">Tournaments</span>
+        </div>
+      </div>
+      <div class="sport-actions">
+        <a href="contact.html" class="btn btn-primary btn-sm">Meet Our Players</a>
+        <a href="contact.html" class="btn btn-outline btn-sm">Upcoming Matches</a>
+      </div>
+    </div>
+
+    <!-- Swimming -->
+    <div class="sport-detail reveal delay-1">
+      <div class="sport-detail-icon">🏊</div>
+      <div class="sport-detail-content">
+        <h4>Swimming Program</h4>
+        <p>Swimming promotes physical fitness, confidence, and water safety for deaf athletes. Our program offers coaching in freestyle, backstroke, and breaststroke, with opportunities to compete in district and state-level deaf swimming competitions.</p>
+        <div class="sport-tags">
+          <span class="sport-tag">Training</span>
+          <span class="sport-tag">Coaches</span>
+          <span class="sport-tag">Players</span>
+          <span class="sport-tag">Tournaments</span>
+        </div>
+      </div>
+      <div class="sport-actions">
+        <a href="contact.html" class="btn btn-primary btn-sm">Meet Our Players</a>
+        <a href="contact.html" class="btn btn-outline btn-sm">Upcoming Matches</a>
+      </div>
+    </div>
+
+    <!-- Chess -->
+    <div class="sport-detail reveal delay-2">
+      <div class="sport-detail-icon">♟️</div>
+      <div class="sport-detail-content">
+        <h4>Chess Program</h4>
+        <p>Chess is a game of strategy that transcends hearing. Our deaf chess players compete at state, national, and international levels with remarkable focus and tactical skill. We provide coaching for beginners through advanced players and organize regular club tournaments.</p>
+        <div class="sport-tags">
+          <span class="sport-tag">Training</span>
+          <span class="sport-tag">Coaches</span>
+          <span class="sport-tag">Players</span>
+          <span class="sport-tag">Tournaments</span>
+        </div>
+      </div>
+      <div class="sport-actions">
+        <a href="contact.html" class="btn btn-primary btn-sm">Meet Our Players</a>
+        <a href="contact.html" class="btn btn-outline btn-sm">Upcoming Matches</a>
+      </div>
+    </div>
+
+    <!-- Volleyball -->
+    <div class="sport-detail reveal delay-3">
+      <div class="sport-detail-icon">🏐</div>
+      <div class="sport-detail-content">
+        <h4>Volleyball Program</h4>
+        <p>Volleyball builds teamwork, reflexes, and athletic ability among deaf athletes. Our program focuses on serving, spiking, setting, and defensive techniques, with regular practice sessions leading up to inter-community and state-level deaf volleyball tournaments.</p>
+        <div class="sport-tags">
+          <span class="sport-tag">Training</span>
+          <span class="sport-tag">Coaches</span>
+          <span class="sport-tag">Players</span>
+          <span class="sport-tag">Tournaments</span>
+        </div>
+      </div>
+      <div class="sport-actions">
+        <a href="contact.html" class="btn btn-primary btn-sm">Meet Our Players</a>
+        <a href="contact.html" class="btn btn-outline btn-sm">Upcoming Matches</a>
+      </div>
+    </div>
+
+    <!-- Table Tennis -->
+    <div class="sport-detail reveal delay-4">
+      <div class="sport-detail-icon">🏓</div>
+      <div class="sport-detail-content">
+        <h4>Table Tennis Program</h4>
+        <p>Table tennis develops quick reflexes, hand-eye coordination, and precision. Our deaf table tennis players train in forehand and backhand techniques, spin variations, and match tactics. The program encourages participation from youth and adults in local and state competitions.</p>
+        <div class="sport-tags">
+          <span class="sport-tag">Training</span>
+          <span class="sport-tag">Coaches</span>
+          <span class="sport-tag">Players</span>
+          <span class="sport-tag">Tournaments</span>
+        </div>
+      </div>
+      <div class="sport-actions">
+        <a href="contact.html" class="btn btn-primary btn-sm">Meet Our Players</a>
+        <a href="contact.html" class="btn btn-outline btn-sm">Upcoming Matches</a>
+      </div>
+    </div>
+
+    <!-- ===== 8. Sports Impact ===== -->
+    <div class="section-center reveal" style="margin-top:60px">
+      <div class="section-tag">Sports Impact</div>
+      <h2 class="section-title">Making a difference through sport</h2>
+      <p class="section-desc">Every number represents an athlete trained, a game played, and a barrier broken. Our sports programs are building confidence and community pride.</p>
+    </div>
+
+    <div class="impact-grid">
+      <div class="impact-box reveal delay-1">
+        <div class="impact-icon">🏅</div>
+        <div class="impact-number" data-count="25">0</div>
+        <div class="impact-label">Athletes</div>
+      </div>
+      <div class="impact-box reveal delay-2">
+        <div class="impact-icon">⚽</div>
+        <div class="impact-number" data-count="8">0</div>
+        <div class="impact-label">Sports</div>
+      </div>
+      <div class="impact-box reveal delay-3">
+        <div class="impact-icon">🏆</div>
+        <div class="impact-number" data-count="5">0</div>
+        <div class="impact-label">Tournaments</div>
+      </div>
+      <div class="impact-box reveal delay-4">
+        <div class="impact-icon">🧑‍🏫</div>
+        <div class="impact-number" data-count="3">0</div>
+        <div class="impact-label">Coaches</div>
+      </div>
+    </div>
+
+    <!-- ===== 9. Upcoming Events ===== -->
+    <div class="section-center reveal" style="margin-top:60px">
+      <div class="section-tag accent">Upcoming Events</div>
+      <h2 class="section-title">Deaf sports events and tournaments</h2>
+      <p class="section-desc">Stay updated with upcoming competitions, training camps, and community sporting events organized by BMCTG.</p>
+    </div>
+
+    <div class="impact-grid">
+      <div class="sport-detail reveal delay-1" style="flex-direction:column;align-items:stretch">
+        <div style="padding:28px 24px">
+          <div class="sport-tags" style="margin-bottom:12px">
+            <span class="sport-tag" style="background:rgba(231,182,74,0.12);color:#d4a030">Sep 14, 2025</span>
+          </div>
+          <h4>Gujarat Deaf Cricket Tournament 2025</h4>
+          <p style="margin-top:8px">Annual inter-district deaf cricket tournament bringing together teams from across Gujarat for competitive T20 matches. Open registration for registered deaf cricket clubs.</p>
+          <div class="sport-actions" style="padding:16px 0 0;margin-top:12px">
+            <a href="contact.html" class="btn btn-primary btn-sm">Register Team</a>
+            <a href="contact.html" class="btn btn-outline btn-sm">View Schedule</a>
+          </div>
+        </div>
+      </div>
+      <div class="sport-detail reveal delay-2" style="flex-direction:column;align-items:stretch">
+        <div style="padding:28px 24px">
+          <div class="sport-tags" style="margin-bottom:12px">
+            <span class="sport-tag" style="background:rgba(231,182,74,0.12);color:#d4a030">Oct 5, 2025</span>
+          </div>
+          <h4>Deaf Sports Training Camp — Gandhinagar</h4>
+          <p style="margin-top:8px">A week-long intensive training camp for deaf athletes in cricket, football, badminton and athletics. Expert coaches will lead sessions on technique, fitness and game strategy.</p>
+          <div class="sport-actions" style="padding:16px 0 0;margin-top:12px">
+            <a href="contact.html" class="btn btn-primary btn-sm">Join Camp</a>
+            <a href="contact.html" class="btn btn-outline btn-sm">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="sport-detail reveal delay-3" style="flex-direction:column;align-items:stretch">
+        <div style="padding:28px 24px">
+          <div class="sport-tags" style="margin-bottom:12px">
+            <span class="sport-tag" style="background:rgba(231,182,74,0.12);color:#d4a030">Nov 20, 2025</span>
+          </div>
+          <h4>BMCTG Annual Sports Day 2025</h4>
+          <p style="margin-top:8px">Our flagship annual sports day featuring competitions in chess, table tennis, volleyball and athletics. A celebration of deaf athletic talent with prizes, recognitions and community gatherings.</p>
+          <div class="sport-actions" style="padding:16px 0 0;margin-top:12px">
+            <a href="contact.html" class="btn btn-primary btn-sm">Register Now</a>
+            <a href="contact.html" class="btn btn-outline btn-sm">View Events</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== 10. Footer ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer__brand">
+        <h3>BMCTG</h3>
+        <p>Badhir Mandal Charitable Trust is dedicated to empowering the deaf and mute community through deaf culture, sports, education, and inclusive advocacy across Gandhinagar and Gujarat.</p>
+        <p style="margin-top:12px">Registration No. A/1075</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Quick Links</h4>
+        <div class="footer__links">
+          <a href="about.html">About Us</a>
+          <a href="team.html">Our Team</a>
+          <a href="programs.html">Programs</a>
+          <a href="sports.html">Sports</a>
+          <a href="impact.html">Impact</a>
+          <a href="donate.html">Donate</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Programs</h4>
+        <div class="footer__links">
+          <a href="programs.html">Deaf Education</a>
+          <a href="programs.html">Life Skills</a>
+          <a href="programs.html">ISL Interpretation</a>
+          <a href="programs.html">Adult Education</a>
+          <a href="programs.html">Employment Support</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Contact</h4>
+        <div class="footer__links">
+          <a href="mailto:badhirmorgujarat@gmail.com">badhirmorgujarat@gmail.com</a>
+          <a href="tel:+919925043716">+91 99250 43716</a>
+          <span>Gandhinagar, Gujarat, India</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2025 Badhir Mandal Charitable Trust. All rights reserved.</p>
+      <div class="footer__bottom-links">
+        <span>Registered under Gujarat Charity Commissioner</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
+
+<script src="script.js"></script>
+</body>
+</html>
