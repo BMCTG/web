@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Deaf Culture | BMCTG — Badhir Mandal Charitable Trust</title>
+<meta name="description" content="Deaf Culture — Our Language. Our Identity. Our Community. Badhir Mandal Charitable Trust (BMCTG) celebrates deaf culture, Indian Sign Language, community pride, and inclusion in Gandhinagar, Gujarat. Registration No. A/1075."/>
+<link rel="icon" href="Group 86.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<!-- ===== 1. Preloader ===== -->
+<div class="preloader" id="preloader"><div class="preloader-spinner"></div></div>
+
+<!-- ===== 2. Topbar ===== -->
+<header class="topbar">
+  <div class="container">
+    <div class="topbar-left">
+      <span>BMCTG &mdash; Together We Rise</span>
+      <span>Gandhinagar, Gujarat</span>
+    </div>
+    <div class="topbar-right">
+      <div class="lang-switch">
+        <button class="active">ગુજરાતી</button>
+        <button>English</button>
+        <button>ISL</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===== 3. Navbar ===== -->
+<nav id="navbar">
+  <div class="container navin">
+    <a href="index.html" class="logo">
+      <img src="Group 86.png" alt="BMCTG Logo" class="logo-img"/>
+      <div>BMCTG<small>Charitable Trust</small></div>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="deaf-culture.html" class="active">Deaf Culture</a>
+      <a href="sports.html">Sports</a>
+      <a href="programs.html">Programs</a>
+      <a href="index.html#activities">Activities</a>
+      <a href="index.html#impact">Impact</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="donate.html" class="btn btn-accent btn-sm">Donate</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- ===== 4. Page Hero ===== -->
+<section class="page-hero">
+  <div class="container">
+    <h1 class="page-hero__title reveal">Deaf Culture</h1>
+    <p class="page-hero__desc reveal delay-1">Our Language. Our Identity. Our Community.</p>
+  </div>
+</section>
+
+<!-- ===== 5. Intro Section ===== -->
+<section class="section" id="culture-intro">
+  <div class="container">
+    <div class="section-center reveal">
+      <div class="section-tag accent">Our Culture</div>
+      <h2 class="section-title">Deaf Culture is Our Identity</h2>
+      <p class="section-desc">Deaf culture is a vibrant, living culture with its own language, traditions, history, and community. It is not defined by what Deaf people cannot do, but by the richness of what they can. At BMCTG, we celebrate and nurture this identity every day — honouring the shared experiences, values, and bonds that make the Deaf community in Gandhinagar and Gujarat strong, proud, and united.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 6. Culture Gallery — 5 Cards ===== -->
+<section class="deaf-culture">
+  <div class="container">
+    <div class="section-center reveal">
+      <div class="section-tag">Culture Gallery</div>
+      <h2 class="section-title">Explore Our Culture</h2>
+      <p class="section-desc">Deaf culture is more than sign language — it is a way of seeing the world, a shared history, and a celebration of identity that connects millions across India and the globe.</p>
+    </div>
+    <div class="culture-grid">
+      <div class="culture-card reveal delay-1">
+        <div class="culture-icon">👥</div>
+        <h4>People</h4>
+        <p>The heart of our community — stories, journeys, and everyday heroism of Deaf individuals in Gujarat and across India.</p>
+      </div>
+      <div class="culture-card reveal delay-2">
+        <div class="culture-icon">🤟</div>
+        <h4>Language</h4>
+        <p>Indian Sign Language (ISL) is our mother tongue — a complete, natural language that connects millions of Deaf people.</p>
+      </div>
+      <div class="culture-card reveal delay-3">
+        <div class="culture-icon">📜</div>
+        <h4>History</h4>
+        <p>From ancient India to the modern Deaf movement, our heritage spans centuries of resilience, advocacy, and community-building.</p>
+      </div>
+      <div class="culture-card reveal delay-4">
+        <div class="culture-icon">🎉</div>
+        <h4>Events</h4>
+        <p>Celebrations, Deaf festivals, cultural gatherings, and awareness campaigns that bring our community together.</p>
+      </div>
+      <div class="culture-card reveal delay-1">
+        <div class="culture-icon">🏆</div>
+        <h4>Achievements</h4>
+        <p>Award-winning Deaf athletes, artists, educators, and leaders who have made Gujarat and India proud on the world stage.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 7. Culture Deep Dive — ISL Feature Banner + Values Grid ===== -->
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="culture-feature reveal">
+      <div class="culture-feature__text">
+        <div class="section-tag accent" style="background:rgba(231,182,74,0.15);display:inline-flex;margin-bottom:16px;">🤟 Indian Sign Language</div>
+        <h3>Indian Sign Language — The Language of Our Community</h3>
+        <p>ISL is a rich, visual-gestural language used by millions of Deaf and hard-of-hearing Indians. It has its own grammar, vocabulary, and syntax — completely distinct from spoken Hindi, Gujarati, or English. At BMCTG, we champion ISL as the primary language of education, communication, and cultural identity for the Deaf community. Promoting ISL means promoting equality, access, and dignity for every Deaf individual in Gujarat and across India.</p>
+      </div>
+      <div class="culture-values">
+        <div class="culture-value">
+          <div class="culture-value-icon">🗣️</div>
+          <h4>Language</h4>
+          <p>ISL is a full, living language with its own structure. We teach, preserve, and promote Indian Sign Language in schools, workplaces, and community spaces throughout Gandhinagar.</p>
+        </div>
+        <div class="culture-value">
+          <div class="culture-value-icon">📖</div>
+          <h4>History</h4>
+          <p>India's Deaf history dates back centuries. From the earliest Deaf schools in the 1800s to modern advocacy, our heritage is one of courage and progress.</p>
+        </div>
+        <div class="culture-value">
+          <div class="culture-value-icon">🏮</div>
+          <h4>Traditions</h4>
+          <p>Visual storytelling, Deaf festivals, sign language theatre, and communal celebrations form the living traditions that keep our culture vibrant and thriving.</p>
+        </div>
+        <div class="culture-value">
+          <div class="culture-value-icon">🏅</div>
+          <h4>Achievements</h4>
+          <p>From the Deaflympics to national awards, Deaf Indians have reached the highest levels of sport, art, education, and leadership.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 8. Deaf Identity Section ===== -->
+<section class="section" style="background:var(--soft)">
+  <div class="container">
+    <div class="section-center reveal">
+      <div class="section-tag purple" style="background:rgba(123,47,247,0.08);color:#7b2ff7">Identity</div>
+      <h2 class="section-title">The Deaf Community is a Linguistic Minority</h2>
+      <p class="section-desc">Deaf people are not defined by hearing loss — they are defined by their language, their culture, and their community. Deaf identity is a source of pride. When Deaf individuals come together through ISL, they form a linguistic and cultural minority with a shared heritage, shared values, and a shared vision for an inclusive world. At BMCTG, we believe every Deaf person deserves to be proud of who they are, to be seen and heard in their own language, and to participate fully in every aspect of society.</p>
+    </div>
+    <div class="culture-grid" style="margin-top:48px;">
+      <div class="culture-card reveal delay-1">
+        <div class="culture-icon">✊</div>
+        <h4>Deaf Pride</h4>
+        <p>Deaf identity is not a disability — it is a cultural identity. We celebrate being Deaf as a source of strength and belonging.</p>
+      </div>
+      <div class="culture-card reveal delay-2">
+        <div class="culture-icon">🌐</div>
+        <h4>Linguistic Minority</h4>
+        <p>ISL users form a unique linguistic community across India, connected by a shared language that transcends regional boundaries.</p>
+      </div>
+      <div class="culture-card reveal delay-3">
+        <div class="culture-icon">🏛️</div>
+        <h4>Equal Rights</h4>
+        <p>The RPWD Act 2016 recognises Deaf rights in India. BMCTG advocates for full access to education, employment, and public life.</p>
+      </div>
+      <div class="culture-card reveal delay-4">
+        <div class="culture-icon">🤝</div>
+        <h4>Community First</h4>
+        <p>The Deaf community is a family. We support, mentor, and uplift each other — in celebrations and in challenges.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 9. Community Stories ===== -->
+<section class="section">
+  <div class="container">
+    <div class="section-center reveal">
+      <div class="section-tag">Community Stories</div>
+      <h2 class="section-title">Deaf Leaders, Artists &amp; Role Models</h2>
+      <p class="section-desc">Behind every achievement is a story of determination, resilience, and pride. These are some of the individuals who inspire the Deaf community in Gujarat and across India every day.</p>
+    </div>
+    <div class="programs-grid">
+      <div class="program-card reveal delay-1">
+        <div class="program-card__number">01</div>
+        <div class="program-card__icon">🎓</div>
+        <h3>Dr. Sumita Deb — Educator &amp; Advocate</h3>
+        <p>A Deaf scholar who has dedicated her life to ISL education and Deaf access in India. She founded one of the first Deaf research centres and has trained hundreds of teachers across Gujarat and India, championing bilingual education and equal opportunity.</p>
+      </div>
+      <div class="program-card reveal delay-2">
+        <div class="program-card__number">02</div>
+        <div class="program-card__icon">🎨</div>
+        <h3>Pratham — Deaf Visual Artist</h3>
+        <p>A self-taught Deaf artist from Gujarat whose paintings and digital art have been exhibited in galleries across India. Pratham uses art to express Deaf identity and break barriers, inspiring a new generation of young Deaf creatives in the community.</p>
+      </div>
+      <div class="program-card reveal delay-3">
+        <div class="program-card__number">03</div>
+        <div class="program-card__icon">🏏</div>
+        <h3>Rajesh — Deaf Cricket Champion</h3>
+        <p>Rajesh has represented India at international Deaf cricket tournaments. His dedication to the sport and his role as a mentor to young Deaf athletes in Gandhinagar has made him a beloved figure in the Deaf sports community.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 10. ISL Section ===== -->
+<section class="section" style="background:linear-gradient(135deg, #1a1a2e 0%, #2d1b69 50%, #7b2ff7 100%);color:var(--white)">
+  <div class="container">
+    <div class="section-center reveal">
+      <div class="section-tag" style="background:rgba(255,255,255,0.1);color:var(--white)">Sign Language</div>
+      <h2 class="section-title" style="color:var(--white)">Indian Sign Language (ISL)</h2>
+      <p class="section-desc" style="color:rgba(255,255,255,0.7);max-width:680px;margin-left:auto;margin-right:auto">Indian Sign Language is the primary language of the Deaf community in India. ISL is a complete, natural language with its own grammar, syntax, and regional variations — it is not a sign system based on spoken languages. ISL connects millions of Deaf Indians and is the foundation of Deaf culture, education, and identity. BMCTG works to promote ISL through education, awareness, training, and community events in Gandhinagar and across Gujarat.</p>
+    </div>
+    <div class="culture-grid reveal" style="margin-top:40px">
+      <div class="culture-card" style="background:rgba(255,255,255,0.06);border-color:rgba(255,255,255,0.08)">
+        <div class="culture-icon" style="background:linear-gradient(135deg, #7b2ff7, #c084fc)">🤟</div>
+        <h4 style="color:var(--white)">Complete Language</h4>
+        <p style="color:rgba(255,255,255,0.6)">ISL has its own grammar, vocabulary, and structure — fully independent of spoken languages used in India.</p>
+      </div>
+      <div class="culture-card" style="background:rgba(255,255,255,0.06);border-color:rgba(255,255,255,0.08)">
+        <div class="culture-icon" style="background:linear-gradient(135deg, #7b2ff7, #c084fc)">📡</div>
+        <h4 style="color:var(--white)">Visual Communication</h4>
+        <p style="color:rgba(255,255,255,0.6)">ISL relies on handshapes, facial expressions, and body language — a rich visual system of expression.</p>
+      </div>
+      <div class="culture-card" style="background:rgba(255,255,255,0.06);border-color:rgba(255,255,255,0.08)">
+        <div class="culture-icon" style="background:linear-gradient(135deg, #7b2ff7, #c084fc)">🏫</div>
+        <h4 style="color:var(--white)">Education &amp; Access</h4>
+        <p style="color:rgba(255,255,255,0.6)">ISL interpretation in schools, courts, hospitals, and government services ensures equal access for Deaf citizens.</p>
+      </div>
+      <div class="culture-card" style="background:rgba(255,255,255,0.06);border-color:rgba(255,255,255,0.08)">
+        <div class="culture-icon" style="background:linear-gradient(135deg, #7b2ff7, #c084fc)">🇮🇳</div>
+        <h4 style="color:var(--white)">National Recognition</h4>
+        <p style="color:rgba(255,255,255,0.6)">ISL was recognised by the RPWD Act 2016. BMCTG continues to advocate for full implementation and ISL awareness.</p>
+      </div>
+    </div>
+    <div class="section-center reveal" style="margin-top:48px">
+      <a href="#" class="btn btn-isl btn-lg">
+        <span class="icon-play">&#9654;</span>
+        Watch in ISL
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 11. Footer ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer__brand">
+        <h3>BMCTG</h3>
+        <p>Badhir Mandal Charitable Trust is dedicated to empowering the deaf and mute community through deaf culture, sports, education, and inclusive advocacy across Gandhinagar and Gujarat.</p>
+        <p style="margin-top:12px">Registration No. A/1075</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Quick Links</h4>
+        <div class="footer__links">
+          <a href="about.html">About Us</a>
+          <a href="team.html">Our Team</a>
+          <a href="programs.html">Programs</a>
+          <a href="sports.html">Sports</a>
+          <a href="impact.html">Impact</a>
+          <a href="donate.html">Donate</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Culture</h4>
+        <div class="footer__links">
+          <a href="deaf-culture.html">Deaf Culture</a>
+          <a href="deaf-culture.html">Indian Sign Language</a>
+          <a href="deaf-culture.html">Community Stories</a>
+          <a href="deaf-culture.html">Deaf Identity</a>
+          <a href="deaf-culture.html">Events &amp; Celebrations</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Contact</h4>
+        <div class="footer__links">
+          <a href="mailto:badhirmorgujarat@gmail.com">badhirmorgujarat@gmail.com</a>
+          <a href="tel:+919925043716">+91 99250 43716</a>
+          <span>Gandhinagar, Gujarat, India</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2025 Badhir Mandal Charitable Trust. All rights reserved.</p>
+      <div class="footer__bottom-links">
+        <span>Registered under Gujarat Charity Commissioner</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
+
+<script src="script.js"></script>
+</body>
+</html>
