@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Activities &amp; Events | BMCTG — Badhir Mandal Charitable Trust</title>
+<meta name="description" content="Activities and events by Badhir Mandal Charitable Trust (BMCTG) — community gatherings, creative workshops, awareness programs, and cultural celebrations for the deaf community in Gandhinagar, Gujarat. Registration No. A/1075."/>
+<link rel="icon" href="Group 86.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<!-- ===== 1. Preloader ===== -->
+<div class="preloader" id="preloader"><div class="preloader-spinner"></div></div>
+
+<!-- ===== 2. Topbar ===== -->
+<header class="topbar">
+  <div class="container">
+    <div class="topbar-left">
+      <span>BMCTG — Together We Rise</span>
+      <span>Gandhinagar, Gujarat</span>
+    </div>
+    <div class="topbar-right">
+      <div class="lang-switch">
+        <button class="active">ગુજરાતી</button>
+        <button>English</button>
+        <button>ISL</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===== 3. Navbar ===== -->
+<nav id="navbar">
+  <div class="container navin">
+    <a href="index.html" class="logo">
+      <img src="Group 86.png" alt="BMCTG Logo" class="logo-img"/>
+      <div>BMCTG<small>Charitable Trust</small></div>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="index.html#deaf-culture">Deaf Culture</a>
+      <a href="sports.html">Sports</a>
+      <a href="programs.html">Programs</a>
+      <a href="activities.html" class="active">Activities</a>
+      <a href="impact.html">Impact</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="donate.html" class="btn btn-accent btn-sm">Donate</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- ===== 4. Page Hero ===== -->
+<section class="page-hero">
+  <div class="container">
+    <h1 class="reveal">Activities &amp; Events</h1>
+    <p class="reveal delay-1">Life in the Community</p>
+  </div>
+</section>
+
+<!-- ===== 5. Intro ===== -->
+<section class="section">
+  <div class="container">
+
+    <div class="section-center reveal">
+      <div class="section-tag">Activities</div>
+      <h2 class="section-title">Building community through shared experiences</h2>
+      <p class="section-desc">At BMCTG, our activities and events are the heartbeat of community life. From creative workshops and cultural celebrations to awareness campaigns and outdoor adventures, every gathering is an opportunity for the Deaf community to connect, learn, grow, and celebrate together. These shared experiences strengthen bonds, build confidence, and create lasting memories.</p>
+    </div>
+
+    <!-- ===== 6. Community Activities ===== -->
+    <div class="activities-grid" style="margin-top:60px">
+
+      <div class="activity-category reveal delay-1">
+        <div class="activity-category__header">
+          <div class="activity-category__icon">🤝</div>
+          <h3>Community Activities</h3>
+        </div>
+        <div class="activity-list">
+          <div class="activity-list__item">
+            <div class="activity-list__bullet"></div>
+            <span>Deaf community meetings</span>
+          </div>
+          <div class="activity-list__item">
+            <div class="activity-list__bullet"></div>
+            <span>Family gatherings</span>
+          </div>
+          <div class="activity-list__item">
+            <div class="activity-list__bullet"></div>
+            <span>Cultural celebrations</span>
+          </div>
+          <div class="activity-list__item">
+            <div class="activity-list__bullet"></div>
+            <span>Picnic / outdoor activities</span>
+          </div>
+          <div class="activity-list__item">
+            <div class="activity-list__bullet"></div>
+            <span>Youth activities</span>
+          </div>
+          <div class="activity-list__item">
+            <div class="activity-list__bullet"></div>
+            <span>Women's activities</span>
+          </div>
+          <div class="activity-list__item">
+            <div class="activity-list__bullet"></div>
+            <span>Senior Deaf community activities</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== 7. Creative Activities ===== -->
+      <div class="activity-category reveal delay-2">
+        <div class="activity-category__header">
+          <div class="activity-category__icon">🎨</div>
+          <h3>Creative Activities</h3>
+        </div>
+        <div class="activity-list">
+          <div class="activity-list__item">
+            <div class="activity-list__bullet"></div>
+            <span>Drawing</span>
+          </div>
+          <div class="activity-list__item">
+            <div class="activity-list__bullet"></div>
+            <span>Photography</span>
+          </div>
+          <div class="activity-list__item">
+            <div class="activity-list__bullet"></div>
+            <span>Video creation</span>
+          </div>
+          <div class="activity-list__item">
+            <div class="activity-list__bullet"></div>
+            <span>Art</span>
+          </div>
+          <div class="activity-list__item">
+            <div class="activity-list__bullet"></div>
+            <span>Dance</span>
+          </div>
+          <div class="activity-list__item">
+            <div class="activity-list__bullet"></div>
+            <span>Theatre</span>
+          </div>
+          <div class="activity-list__item">
+            <div class="activity-list__bullet"></div>
+            <span>Sign-language performances</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== 8. Awareness Activities ===== -->
+      <div class="activity-category reveal delay-3">
+        <div class="activity-category__header">
+          <div class="activity-category__icon">📢</div>
+          <h3>Awareness Activities</h3>
+        </div>
+        <div class="activity-list">
+          <div class="activity-list__item">
+            <div class="activity-list__bullet"></div>
+            <span>Deaf Awareness Day</span>
+          </div>
+          <div class="activity-list__item">
+            <div class="activity-list__bullet"></div>
+            <span>ISL awareness workshops</span>
+          </div>
+          <div class="activity-list__item">
+            <div class="activity-list__bullet"></div>
+            <span>School awareness programs</span>
+          </div>
+          <div class="activity-list__item">
+            <div class="activity-list__bullet"></div>
+            <span>Corporate awareness programs</span>
+          </div>
+          <div class="activity-list__item">
+            <div class="activity-list__bullet"></div>
+            <span>Government / community awareness</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ===== 9. Upcoming Events ===== -->
+    <div class="section-center reveal" style="margin-top:80px">
+      <div class="section-tag accent">Upcoming Events</div>
+      <h2 class="section-title">What's happening next</h2>
+      <p class="section-desc">Stay connected with our upcoming gatherings, workshops, and celebrations. Every event is designed to bring the community together and create meaningful experiences.</p>
+    </div>
+
+    <div class="impact-grid" style="margin-top:48px">
+
+      <div class="sport-detail reveal delay-1" style="flex-direction:column;align-items:stretch">
+        <div style="padding:28px 24px">
+          <div class="sport-tags" style="margin-bottom:12px">
+            <span class="sport-tag" style="background:rgba(231,182,74,0.12);color:#d4a030">Sep 15, 2025</span>
+          </div>
+          <h4>Deaf Community Meet</h4>
+          <p style="margin-top:8px">A monthly gathering of the Deaf community to share stories, discuss challenges, and celebrate achievements. Open to all Deaf individuals and their families in Gandhinagar and surrounding areas.</p>
+          <div class="sport-actions" style="padding:16px 0 0;margin-top:12px">
+            <a href="contact.html" class="btn btn-primary btn-sm">Register</a>
+            <a href="contact.html" class="btn btn-outline btn-sm">Details</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="sport-detail reveal delay-2" style="flex-direction:column;align-items:stretch">
+        <div style="padding:28px 24px">
+          <div class="sport-tags" style="margin-bottom:12px">
+            <span class="sport-tag" style="background:rgba(231,182,74,0.12);color:#d4a030">Oct 8, 2025</span>
+          </div>
+          <h4>Photography Workshop</h4>
+          <p style="margin-top:8px">Learn photography fundamentals — composition, lighting, and storytelling through images. A hands-on workshop led by professional photographers, designed to empower Deaf participants with creative skills.</p>
+          <div class="sport-actions" style="padding:16px 0 0;margin-top:12px">
+            <a href="contact.html" class="btn btn-primary btn-sm">Join Workshop</a>
+            <a href="contact.html" class="btn btn-outline btn-sm">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="sport-detail reveal delay-3" style="flex-direction:column;align-items:stretch">
+        <div style="padding:28px 24px">
+          <div class="sport-tags" style="margin-bottom:12px">
+            <span class="sport-tag" style="background:rgba(231,182,74,0.12);color:#d4a030">Nov 10, 2025</span>
+          </div>
+          <h4>Deaf Awareness Day</h4>
+          <p style="margin-top:8px">Our flagship annual awareness campaign featuring ISL demonstrations, community outreach, school visits, and public events to promote understanding and inclusion of the Deaf community across Gujarat.</p>
+          <div class="sport-actions" style="padding:16px 0 0;margin-top:12px">
+            <a href="contact.html" class="btn btn-primary btn-sm">Get Involved</a>
+            <a href="contact.html" class="btn btn-outline btn-sm">View Schedule</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="sport-detail reveal delay-4" style="flex-direction:column;align-items:stretch">
+        <div style="padding:28px 24px">
+          <div class="sport-tags" style="margin-bottom:12px">
+            <span class="sport-tag" style="background:rgba(231,182,74,0.12);color:#d4a030">Dec 20, 2025</span>
+          </div>
+          <h4>Cultural Festival</h4>
+          <p style="margin-top:8px">A vibrant celebration of Deaf culture featuring sign-language performances, art exhibitions, dance, theatre, and traditional festivities. A joyful gathering bringing together the entire Deaf community and allies.</p>
+          <div class="sport-actions" style="padding:16px 0 0;margin-top:12px">
+            <a href="contact.html" class="btn btn-primary btn-sm">Reserve Spot</a>
+            <a href="contact.html" class="btn btn-outline btn-sm">View Events</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ===== 10. Photo Storytelling ===== -->
+    <div class="section-center reveal" style="margin-top:80px">
+      <div class="section-tag purple">Photo Stories</div>
+      <h2 class="section-title">Life in the Deaf Community</h2>
+      <p class="section-desc">Every photo tells a story of resilience, joy, and connection. These snapshots capture the spirit of our community — the moments that define who we are and the bonds that hold us together.</p>
+    </div>
+
+    <div class="gallery-grid" style="margin-top:48px">
+
+      <div class="gallery-item reveal delay-1">
+        <div class="gallery-item__img" style="background:linear-gradient(135deg,#0080A8,#00a3cc);display:flex;align-items:center;justify-content:center">
+          <span style="font-size:3rem;color:rgba(255,255,255,0.4)">🏅</span>
+        </div>
+        <div class="gallery-item__overlay">
+          <span>Sports — Training and competing with passion</span>
+        </div>
+      </div>
+
+      <div class="gallery-item reveal delay-2">
+        <div class="gallery-item__img" style="background:linear-gradient(135deg,#e7b64a,#d4a030);display:flex;align-items:center;justify-content:center">
+          <span style="font-size:3rem;color:rgba(255,255,255,0.4)">🎭</span>
+        </div>
+        <div class="gallery-item__overlay">
+          <span>Culture — Celebrating Deaf heritage and identity</span>
+        </div>
+      </div>
+
+      <div class="gallery-item reveal delay-3">
+        <div class="gallery-item__img" style="background:linear-gradient(135deg,#7b2ff7,#9b59f5);display:flex;align-items:center;justify-content:center">
+          <span style="font-size:3rem;color:rgba(255,255,255,0.4)">🤗</span>
+        </div>
+        <div class="gallery-item__overlay">
+          <span>Friendship — Bonds that transcend barriers</span>
+        </div>
+      </div>
+
+      <div class="gallery-item reveal delay-4">
+        <div class="gallery-item__img" style="background:linear-gradient(135deg,#0a2540,#006688);display:flex;align-items:center;justify-content:center">
+          <span style="font-size:3rem;color:rgba(255,255,255,0.4)">📖</span>
+        </div>
+        <div class="gallery-item__overlay">
+          <span>Learning — Knowledge through ISL and education</span>
+        </div>
+      </div>
+
+      <div class="gallery-item reveal delay-1">
+        <div class="gallery-item__img" style="background:linear-gradient(135deg,#00a3cc,#0080A8);display:flex;align-items:center;justify-content:center">
+          <span style="font-size:3rem;color:rgba(255,255,255,0.4)">🏆</span>
+        </div>
+        <div class="gallery-item__overlay">
+          <span>Achievement — Breaking barriers and reaching goals</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ===== 11. CTA ===== -->
+    <div class="sports-hero-banner reveal" style="margin-top:80px">
+      <div class="section-tag">Get Involved</div>
+      <h2>Join Our Activities</h2>
+      <p>Whether you are Deaf, hard of hearing, or an ally — there is a place for you in our community. Come to a meeting, join a workshop, volunteer at an event, or simply share a moment of connection. Together we build a stronger, more inclusive world.</p>
+      <div style="display:flex;gap:16px;justify-content:center;margin-top:32px;flex-wrap:wrap">
+        <a href="contact.html" class="btn btn-white btn-lg">Contact Us</a>
+        <a href="donate.html" class="btn btn-accent btn-lg">Donate</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== 12. Footer ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer__brand">
+        <h3>BMCTG</h3>
+        <p>Badhir Mandal Charitable Trust is dedicated to empowering the deaf and mute community through deaf culture, sports, education, and inclusive advocacy across Gandhinagar and Gujarat.</p>
+        <p style="margin-top:12px">Registration No. A/1075</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Quick Links</h4>
+        <div class="footer__links">
+          <a href="about.html">About Us</a>
+          <a href="team.html">Our Team</a>
+          <a href="programs.html">Programs</a>
+          <a href="sports.html">Sports</a>
+          <a href="activities.html">Activities</a>
+          <a href="impact.html">Impact</a>
+          <a href="donate.html">Donate</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Programs</h4>
+        <div class="footer__links">
+          <a href="programs.html">Deaf Education</a>
+          <a href="programs.html">Life Skills</a>
+          <a href="programs.html">ISL Interpretation</a>
+          <a href="programs.html">Adult Education</a>
+          <a href="programs.html">Employment Support</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Contact</h4>
+        <div class="footer__links">
+          <a href="mailto:badhirmorgujarat@gmail.com">badhirmorgujarat@gmail.com</a>
+          <a href="tel:+919925043716">+91 99250 43716</a>
+          <span>Gandhinagar, Gujarat, India</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2025 Badhir Mandal Charitable Trust. All rights reserved.</p>
+      <div class="footer__bottom-links">
+        <span>Registered under Gujarat Charity Commissioner</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
+
+<script src="script.js"></script>
+</body>
+</html>
