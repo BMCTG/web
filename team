@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Our Team | BMCTG &mdash; Badhir Mandal Charitable Trust</title>
+<meta name="description" content="Meet the Board of Trustees behind Badhir Mandal Charitable Trust (BMCTG) &mdash; nine dedicated leaders serving the deaf and mute community in Gandhinagar, Gujarat. Registration No. A/1075."/>
+<link rel="icon" href="Group 86.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+
+</head>
+<body>
+<div class="preloader" id="preloader"><div class="preloader-spinner"></div></div>
+<header class="topbar">
+  <div class="container">
+    <div class="topbar-left">
+      <span>BMCTG &mdash; Together We Rise</span>
+      <span>Gandhinagar, Gujarat</span>
+    </div>
+    <div class="topbar-right">
+      <div class="lang-switch">
+        <button class="active">&#x0AAF;&#x0AC7;&#x0A9C;&#x0AB0;&#x0ABE;&#x0A9F;&#x0AC0;</button>
+        <button>English</button>
+        <button>ISL</button>
+      </div>
+    </div>
+  </div>
+</header>
+<nav id="navbar">
+  <div class="container navin">
+    <a href="index.html" class="logo">
+      <img src="Group 86.png" alt="BMCTG Logo" class="logo-img"/>
+      <div>BMCTG<small>Charitable Trust</small></div>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="team.html" class="active">Team</a>
+      <a href="programs.html">Programs</a>
+      <a href="sports.html">Sports</a>
+      <a href="impact.html">Impact</a>
+      <a href="contact.html">Contact</a>
+      <a href="donate.html" class="btn btn-accent btn-sm">Donate</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<section class="page-hero">
+  <div class="container">
+    <h1 class="page-hero__title reveal">Our Team</h1>
+    <p class="page-hero__desc reveal delay-1">The people behind BMCTG</p>
+  </div>
+</section>
+<section class="section" style="padding:100px 0">
+  <div class="container">
+    <div class="team-board-intro reveal">
+      <h3>Board of Trustees</h3>
+      <p>The governance and strategic direction of Badhir Mandal Charitable Trust is led by a committed Board of 9 Trustees &mdash; community leaders, educators and professionals who volunteer their time and expertise to serve the deaf and mute community of Gandhinagar and Gujarat.</p>
+    </div>
+    <div class="team-grid">
+      <div class="trustee-card reveal delay-1">
+        <div class="trustee-avatar">J</div>
+        <h4>Jaydeepsinh Dabhi</h4>
+        <span class="trustee-role">Chairman &amp; ISL Interpretation</span>
+        <p>Founder of BMCTG, deaf himself, leading the trust since 2015 with vision and dedication.</p>
+      </div>
+      <div class="trustee-card reveal delay-2">
+        <div class="trustee-avatar">U</div>
+        <h4>Umang Pandya</h4>
+        <span class="trustee-role">President</span>
+        <p>Leading organizational strategy and community programs.</p>
+      </div>
+      <div class="trustee-card reveal delay-3">
+        <div class="trustee-avatar">H</div>
+        <h4>Hitesh Shastri</h4>
+        <span class="trustee-role">Vice President</span>
+        <p>Supporting operations and program development.</p>
+      </div>
+      <div class="trustee-card reveal delay-1">
+        <div class="trustee-avatar">A</div>
+        <h4>Ajitsinh Dabhi</h4>
+        <span class="trustee-role">Secretary</span>
+        <p>Managing administrative affairs and compliance.</p>
+      </div>
+      <div class="trustee-card reveal delay-2">
+        <div class="trustee-avatar">R</div>
+        <h4>Rajesh Dhami</h4>
+        <span class="trustee-role">Treasurer</span>
+        <p>Overseeing financial management and transparency.</p>
+      </div>
+      <div class="trustee-card reveal delay-3">
+        <div class="trustee-avatar">C</div>
+        <h4>Chirag Patel</h4>
+        <span class="trustee-role">Member</span>
+        <p>Contributing to program planning and community outreach.</p>
+      </div>
+      <div class="trustee-card reveal delay-1">
+        <div class="trustee-avatar">H</div>
+        <h4>Hemangini Dabhi</h4>
+        <span class="trustee-role">Member</span>
+        <p>Supporting women empowerment and community activities.</p>
+      </div>
+      <div class="trustee-card reveal delay-2">
+        <div class="trustee-avatar">K</div>
+        <h4>Kalpesh Patel</h4>
+        <span class="trustee-role">Member</span>
+        <p>Supporting sports development and youth programs.</p>
+      </div>
+      <div class="trustee-card reveal delay-3">
+        <div class="trustee-avatar">S</div>
+        <h4>Suresh Prajapati</h4>
+        <span class="trustee-role">Member</span>
+        <p>Supporting education and skill development programs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="team-cta reveal">
+  <div class="container">
+    <div class="section-tag" style="background:rgba(255,255,255,0.08);color:var(--accent)">Join Us</div>
+    <h2>Want to join our team?</h2>
+    <p>We are always looking for passionate individuals who share our vision of an inclusive world for the deaf community.</p>
+    <div class="btn-group">
+      <a href="get-involved.html" class="btn btn-accent btn-lg">Become a Member</a>
+      <a href="contact.html" class="btn btn-outline btn-lg" style="border-color:rgba(255,255,255,0.3);color:var(--white)">Contact Us</a>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer__brand">
+        <h3>BMCTG</h3>
+        <p>Badhir Mandal Charitable Trust is dedicated to empowering the deaf and mute community through deaf culture, sports, education, and inclusive advocacy across Gandhinagar and Gujarat.</p>
+        <p style="margin-top:12px">Registration No. A/1075</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Quick Links</h4>
+        <div class="footer__links">
+          <a href="about.html">About Us</a>
+          <a href="team.html">Our Team</a>
+          <a href="programs.html">Programs</a>
+          <a href="sports.html">Sports</a>
+          <a href="impact.html">Impact</a>
+          <a href="donate.html">Donate</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Programs</h4>
+        <div class="footer__links">
+          <a href="programs.html">Deaf Education</a>
+          <a href="programs.html">Life Skills</a>
+          <a href="programs.html">ISL Interpretation</a>
+          <a href="programs.html">Adult Education</a>
+          <a href="programs.html">Employment Support</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Contact</h4>
+        <div class="footer__links">
+          <a href="mailto:badhirmorgujarat@gmail.com">badhirmorgujarat@gmail.com</a>
+          <a href="tel:+919925043716">+91 99250 43716</a>
+          <span>Gandhinagar, Gujarat, India</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2025 Badhir Mandal Charitable Trust. All rights reserved.</p>
+      <div class="footer__bottom-links">
+        <span>Registered under Gujarat Charity Commissioner</span>
+      </div>
+    </div>
+  </div>
+</footer>
+<button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
+<script src="script.js"></script>
+</body>
+</html>
