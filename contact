@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Contact BMCTG &mdash; Badhir Mandal Charitable Trust</title>
+<meta name="description" content="Contact Badhir Mandal Charitable Trust (BMCTG) &mdash; reach out for queries, partnerships, ISL support, or to get involved. Gandhinagar, Gujarat. Registration No. A/1075."/>
+<link rel="icon" href="Group 86.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<!-- ===== 1. Preloader ===== -->
+<div class="preloader" id="preloader"><div class="preloader-spinner"></div></div>
+
+<!-- ===== 2. Topbar ===== -->
+<header class="topbar">
+  <div class="container">
+    <div class="topbar-left">
+      <span>BMCTG &mdash; Together We Rise</span>
+      <span>Gandhinagar, Gujarat</span>
+    </div>
+    <div class="topbar-right">
+      <div class="lang-switch">
+        <button>&#x0AAF;&#x0AC7;&#x0A9C;&#x0AB0;&#x0ABE;&#x0A9F;&#x0AC0;</button>
+        <button class="active">English</button>
+        <button>ISL</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===== 3. Navbar ===== -->
+<nav id="navbar">
+  <div class="container navin">
+    <a href="index.html" class="logo">
+      <img src="Group 86.png" alt="BMCTG Logo" class="logo-img"/>
+      <div>BMCTG<small>Charitable Trust</small></div>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="sports.html">Sports</a>
+      <a href="impact.html">Impact</a>
+      <a href="team.html">Team</a>
+      <a href="donate.html">Donate</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="donate.html" class="btn btn-accent btn-sm">Donate</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- ===== 4. Page Hero ===== -->
+<section class="page-hero">
+  <div class="container">
+    <h1 class="page-hero__title reveal">Contact Us</h1>
+    <p class="page-hero__desc reveal delay-1">We'd love to hear from you</p>
+  </div>
+</section>
+
+<!-- ===== 5. Contact Section ===== -->
+<section class="section" style="padding:100px 0">
+  <div class="container">
+    <div class="section-center reveal">
+      <div class="section-tag accent">Get In Touch</div>
+      <h2 class="section-title">We're here to help</h2>
+      <p class="section-desc">Whether you have a question, want to volunteer, need ISL support, or want to partner with us &mdash; reach out and we'll get back to you.</p>
+    </div>
+    <div class="contact-grid">
+
+      <!-- Left Column: Contact List -->
+      <div class="contact-list reveal from-left">
+        <div class="contact-item">
+          <div class="contact-item-icon">&#x2709;&#xFE0F;</div>
+          <div>
+            <h3>Email</h3>
+            <a href="mailto:info.bmctg@gmail.com">info.bmctg@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">&#x1F4DE;</div>
+          <div>
+            <h3>Phone</h3>
+            <a href="tel:+919429779656">+91 9429779656</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">&#x1F4CD;</div>
+          <div>
+            <h3>Location</h3>
+            <p>Gandhinagar, Gujarat, India</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">&#x1F550;</div>
+          <div>
+            <h3>Hours</h3>
+            <p>Monday &ndash; Saturday<br>10:00 AM &ndash; 6:00 PM</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Contact Form -->
+      <div class="reveal from-right">
+        <form id="contactForm">
+          <input type="text" name="name" placeholder="Your Name" required/>
+          <input type="email" name="email" placeholder="Your Email" required/>
+          <input type="tel" name="phone" placeholder="Phone Number"/>
+          <select name="subject" required>
+            <option value="" disabled selected>Select Subject</option>
+            <option value="General Inquiry">General Inquiry</option>
+            <option value="Membership">Membership</option>
+            <option value="Volunteering">Volunteering</option>
+            <option value="Donation">Donation</option>
+            <option value="Sports Program">Sports Program</option>
+            <option value="ISL Services">ISL Services</option>
+            <option value="Other">Other</option>
+          </select>
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="btn btn-primary btn-md">Send Message</button>
+        </form>
+        <div id="formSuccess" style="display:none;text-align:center;padding:40px 20px;">
+          <div style="font-size:3rem;margin-bottom:16px;">&#x2705;</div>
+          <h3>Thank you for reaching out!</h3>
+          <p>We've received your message and will get back to you within 1&ndash;2 business days.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 6. Map Placeholder ===== -->
+<section style="background:var(--soft,#f4f6fb);padding:80px 0">
+  <div class="container">
+    <div class="section-center reveal">
+      <div class="section-tag">Find Us</div>
+      <h2 class="section-title">Gandhinagar, Gujarat</h2>
+      <p class="section-desc">We are based in Gandhinagar, the capital city of Gujarat, India.</p>
+    </div>
+    <div class="reveal delay-1" style="border-radius:16px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,.08);max-width:900px;margin:0 auto;">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117911.60734906379!2d72.5806597!3d23.2584856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2b4a3e1d6b6d%3A0x1!2sGandhinagar%2C+Gujarat!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" width="100%" height="400" style="border:0;display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Maps - Gandhinagar, Gujarat"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 7. ISL Support Note ===== -->
+<section style="background:var(--navy,#1a1a2e);padding:80px 0">
+  <div class="container">
+    <div class="section-center reveal">
+      <div class="section-tag" style="background:rgba(255,255,255,.08);color:var(--accent)">&#x1F449; ISL Support</div>
+      <h2 style="color:var(--white);font-size:clamp(1.6rem,3vw,2.4rem);margin-bottom:16px">Need ISL Interpretation for Contact?</h2>
+      <p style="color:rgba(255,255,255,.65);font-size:1.05rem;max-width:600px;margin:0 auto 32px;line-height:1.75">We provide ISL interpretation support for all inquiries. Deaf individuals can request a sign language interpreter for any communication with our team.</p>
+      <a href="#" class="btn btn-isl btn-lg">Request ISL Support</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 8. Footer ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer__brand">
+        <h3>BMCTG</h3>
+        <p>Badhir Mandal Charitable Trust is dedicated to empowering the deaf and mute community through deaf culture, sports, education, and inclusive advocacy across Gandhinagar and Gujarat.</p>
+        <p style="margin-top:12px">Registration No. A/1075</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Quick Links</h4>
+        <div class="footer__links">
+          <a href="about.html">About Us</a>
+          <a href="team.html">Our Team</a>
+          <a href="programs.html">Programs</a>
+          <a href="sports.html">Sports</a>
+          <a href="impact.html">Impact</a>
+          <a href="donate.html">Donate</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Programs</h4>
+        <div class="footer__links">
+          <a href="programs.html">Deaf Education</a>
+          <a href="programs.html">Life Skills</a>
+          <a href="programs.html">ISL Interpretation</a>
+          <a href="programs.html">Adult Education</a>
+          <a href="programs.html">Employment Support</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Contact</h4>
+        <div class="footer__links">
+          <a href="mailto:badhirmorgujarat@gmail.com">badhirmorgujarat@gmail.com</a>
+          <a href="tel:+919429779656">+91 9429779656</a>
+          <span>Gandhinagar, Gujarat, India</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2025 Badhir Mandal Charitable Trust. All rights reserved.</p>
+      <div class="footer__bottom-links">
+        <span>Registered under Gujarat Charity Commissioner</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
+
+<script src="script.js"></script>
+</body>
+</html>
