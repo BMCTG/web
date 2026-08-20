@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Impact | BMCTG – Badhir Mandal Charitable Trust</title>
+  <meta name="description" content="Explore the measurable impact BMCTG has made in the Deaf community through education, sports, awareness, and community engagement in Gandhinagar, Gujarat." />
+  <link rel="icon" href="Group 86.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-spinner"></div>
+  </div>
+
+  <!-- Top Bar -->
+  <div class="topbar">
+    <div class="container">
+      <span>BMCTG – Badhir Mandal Charitable Trust &nbsp;|&nbsp; Reg. No. A/1075</span>
+      <div class="lang-switch">
+        <a href="#" lang="gu" data-lang="gu">ગુજરાતી</a>
+        <a href="#" lang="en" data-lang="en" class="active">English</a>
+        <a href="#" lang="hi" data-lang="isl">ISL</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="container navin">
+      <a href="index.html" class="logo">
+        <img src="Group 86.png" alt="BMCTG Logo" class="logo-img" />
+        <span>BMCTG</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="impact.html" class="active">Impact</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="donate.html" class="btn btn-primary btn-md">Donate</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-tag accent">Our Impact</span>
+      <h1 class="section-title">Measurable Change in the<br/>Deaf Community</h1>
+      <p class="section-desc">Every number tells a story of transformation. Explore the impact BMCTG has created through education, sports, awareness, and unwavering community support.</p>
+    </div>
+  </section>
+
+  <!-- Impact Numbers -->
+  <section class="container" style="padding: 4rem 1.5rem;">
+    <div class="section-center">
+      <span class="section-tag purple">Community</span>
+      <h2 class="section-title">Our Community at a Glance</h2>
+      <p class="section-desc">The lives we've touched, the milestones we've achieved — together.</p>
+    </div>
+    <div class="impact-grid" style="margin-top: 3rem;">
+      <div class="impact-box reveal">
+        <div class="impact-icon">🤝</div>
+        <div class="impact-number" data-count="100">0</div>
+        <span class="impact-label">Community Members</span>
+      </div>
+      <div class="impact-box reveal delay-1">
+        <div class="impact-icon">🏅</div>
+        <div class="impact-number" data-count="25">0</div>
+        <span class="impact-label">Athletes</span>
+      </div>
+      <div class="impact-box reveal delay-2">
+        <div class="impact-icon">🎯</div>
+        <div class="impact-number" data-count="10">0</div>
+        <span class="impact-label">Community Activities</span>
+      </div>
+      <div class="impact-box reveal delay-3">
+        <div class="impact-icon">⚽</div>
+        <div class="impact-number" data-count="5">0</div>
+        <span class="impact-label">Sports Programs</span>
+      </div>
+      <div class="impact-box reveal delay-4">
+        <div class="impact-icon">📢</div>
+        <div class="impact-number" data-count="10">0</div>
+        <span class="impact-label">Awareness Programs</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact Areas -->
+  <section class="container" style="padding: 4rem 1.5rem;">
+    <div class="section-center">
+      <span class="section-tag accent">Impact Areas</span>
+      <h2 class="section-title">Where We Make a Difference</h2>
+      <p class="section-desc">Four pillars driving sustainable change for the Deaf and Hard of Hearing community.</p>
+    </div>
+    <div class="impact-grid" style="margin-top: 3rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+
+      <div class="impact-box reveal" style="text-align: left; padding: 2.5rem 2rem;">
+        <div class="impact-icon" style="font-size: 2.2rem; margin-bottom: 1rem;">📚</div>
+        <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;">Education Impact</h3>
+        <p style="font-size: 0.95rem; color: #555; line-height: 1.7; margin-bottom: 1rem;">Empowering Deaf individuals with digital literacy, vocational training, and essential life skills to thrive in a connected world.</p>
+        <ul style="list-style: none; padding: 0; font-size: 0.9rem; color: #444;">
+          <li style="margin-bottom: 0.4rem;">✦ Digital skills training for youth & adults</li>
+          <li style="margin-bottom: 0.4rem;">✦ Sign language literacy workshops</li>
+          <li style="margin-bottom: 0.4rem;">✦ Financial literacy sessions</li>
+        </ul>
+      </div>
+
+      <div class="impact-box reveal delay-1" style="text-align: left; padding: 2.5rem 2rem;">
+        <div class="impact-icon" style="font-size: 2.2rem; margin-bottom: 1rem;">🏆</div>
+        <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;">Sports Achievement</h3>
+        <p style="font-size: 0.95rem; color: #555; line-height: 1.7; margin-bottom: 1rem;">Building athletic excellence through dedicated training programs and competitive opportunities for Deaf athletes.</p>
+        <ul style="list-style: none; padding: 0; font-size: 0.9rem; color: #444;">
+          <li style="margin-bottom: 0.4rem;">✦ 25+ athletes trained across disciplines</li>
+          <li style="margin-bottom: 0.4rem;">✦ Tournaments participated at district & state levels</li>
+          <li style="margin-bottom: 0.4rem;">✦ Medals won in Deaf sports competitions</li>
+        </ul>
+      </div>
+
+      <div class="impact-box reveal delay-2" style="text-align: left; padding: 2.5rem 2rem;">
+        <div class="impact-icon" style="font-size: 2.2rem; margin-bottom: 1rem;">🌍</div>
+        <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;">Community Engagement</h3>
+        <p style="font-size: 0.95rem; color: #555; line-height: 1.7; margin-bottom: 1rem;">Fostering a strong, connected community through inclusive events and meaningful partnerships that uplift every member.</p>
+        <ul style="list-style: none; padding: 0; font-size: 0.9rem; color: #444;">
+          <li style="margin-bottom: 0.4rem;">✦ Cultural events & social gatherings</li>
+          <li style="margin-bottom: 0.4rem;">✦ Families reached through outreach</li>
+          <li style="margin-bottom: 0.4rem;">✦ Partnerships with NGOs & government bodies</li>
+        </ul>
+      </div>
+
+      <div class="impact-box reveal delay-3" style="text-align: left; padding: 2.5rem 2rem;">
+        <div class="impact-icon" style="font-size: 2.2rem; margin-bottom: 1rem;">🗣️</div>
+        <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;">Awareness Programs</h3>
+        <p style="font-size: 0.95rem; color: #555; line-height: 1.7; margin-bottom: 1rem;">Breaking barriers through advocacy, education, and collaboration — making inclusion a lived reality across Gujarat.</p>
+        <ul style="list-style: none; padding: 0; font-size: 0.9rem; color: #444;">
+          <li style="margin-bottom: 0.4rem;">✦ Schools visited with ISL awareness drives</li>
+          <li style="margin-bottom: 0.4rem;">✦ Corporate inclusion training sessions</li>
+          <li style="margin-bottom: 0.4rem;">✦ Government policy advocacy meetings</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Success Stories -->
+  <section class="container" style="padding: 4rem 1.5rem;">
+    <div class="section-center">
+      <span class="section-tag purple">Stories</span>
+      <h2 class="section-title">Success Stories</h2>
+      <p class="section-desc">Real voices. Real journeys. Real impact.</p>
+    </div>
+    <div class="impact-grid" style="margin-top: 3rem; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+
+      <div class="impact-box reveal" style="text-align: left; padding: 2.5rem 2rem; position: relative;">
+        <div style="font-size: 2.5rem; opacity: 0.15; position: absolute; top: 1.2rem; right: 1.5rem;">❝</div>
+        <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.2rem;">
+          <div style="width: 52px; height: 52px; border-radius: 50%; background: linear-gradient(135deg, #6c3ce0, #a855f7); display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 700; font-size: 1.1rem;">RJ</div>
+          <div>
+            <h4 style="font-size: 1.05rem; font-weight: 700; margin: 0;">Rajesh Joshi</h4>
+            <span style="font-size: 0.82rem; color: #777;">Sports Program Graduate</span>
+          </div>
+        </div>
+        <p style="font-size: 0.95rem; color: #555; line-height: 1.7; font-style: italic;">"BMCTG gave me the confidence to compete at state level. I never imagined I'd represent my community in a Deaf sports tournament. This trust changed my life."</p>
+      </div>
+
+      <div class="impact-box reveal delay-1" style="text-align: left; padding: 2.5rem 2rem; position: relative;">
+        <div style="font-size: 2.5rem; opacity: 0.15; position: absolute; top: 1.2rem; right: 1.5rem;">❝</div>
+        <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.2rem;">
+          <div style="width: 52px; height: 52px; border-radius: 50%; background: linear-gradient(135deg, #6c3ce0, #a855f7); display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 700; font-size: 1.1rem;">PM</div>
+          <div>
+            <h4 style="font-size: 1.05rem; font-weight: 700; margin: 0;">Priya Mehta</h4>
+            <span style="font-size: 0.82rem; color: #777;">Digital Skills Trainee</span>
+          </div>
+        </div>
+        <p style="font-size: 0.95rem; color: #555; line-height: 1.7; font-style: italic;">"The digital literacy program opened doors I never knew existed. I can now work independently and support my family. Thank you, BMCTG, for believing in me."</p>
+      </div>
+
+      <div class="impact-box reveal delay-2" style="text-align: left; padding: 2.5rem 2rem; position: relative;">
+        <div style="font-size: 2.5rem; opacity: 0.15; position: absolute; top: 1.2rem; right: 1.5rem;">❝</div>
+        <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.2rem;">
+          <div style="width: 52px; height: 52px; border-radius: 50%; background: linear-gradient(135deg, #6c3ce0, #a855f7); display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 700; font-size: 1.1rem;">AP</div>
+          <div>
+            <h4 style="font-size: 1.05rem; font-weight: 700; margin: 0;">Anita Patel</h4>
+            <span style="font-size: 0.82rem; color: #777;">Awareness Program Volunteer</span>
+          </div>
+        </div>
+        <p style="font-size: 0.95rem; color: #555; line-height: 1.7; font-style: italic;">"Volunteering with BMCTG's awareness drives has been deeply fulfilling. Seeing schools and offices become more inclusive — that's the change we need."</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Growth Over Time -->
+  <section class="container" style="padding: 4rem 1.5rem;">
+    <div class="section-center">
+      <span class="section-tag accent">Growth</span>
+      <h2 class="section-title">Growth Over Time</h2>
+      <p class="section-desc">Year after year, our commitment to the Deaf community only grows stronger.</p>
+    </div>
+    <div class="impact-grid" style="margin-top: 3rem;">
+      <div class="impact-box reveal">
+        <div class="impact-icon">📅</div>
+        <div class="impact-number" data-count="5">0</div>
+        <span class="impact-label">Years Active</span>
+      </div>
+      <div class="impact-box reveal delay-1">
+        <div class="impact-icon">🚀</div>
+        <div class="impact-number" data-count="15">0</div>
+        <span class="impact-label">Programs Launched</span>
+      </div>
+      <div class="impact-box reveal delay-2">
+        <div class="impact-icon">💚</div>
+        <div class="impact-number" data-count="500">0</div>
+        <span class="impact-label">People Served</span>
+      </div>
+      <div class="impact-box reveal delay-3">
+        <div class="impact-icon">🎉</div>
+        <div class="impact-number" data-count="50">0</div>
+        <span class="impact-label">Events Hosted</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="container" style="padding: 4rem 1.5rem;">
+    <div class="impact-box reveal" style="text-align: center; padding: 4rem 2rem; background: linear-gradient(135deg, #6c3ce0, #a855f7); border-radius: 1.2rem; color: #fff;">
+      <h2 style="font-size: 2rem; font-weight: 800; margin-bottom: 0.8rem;">Be Part of Our Impact Story</h2>
+      <p style="font-size: 1.05rem; opacity: 0.9; max-width: 520px; margin: 0 auto 2rem;">Every contribution fuels another milestone. Join us in creating a more inclusive world for the Deaf community.</p>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="donate.html" class="btn btn-primary btn-lg" style="background: #fff; color: #6c3ce0;">Donate Now</a>
+        <a href="contact.html" class="btn btn-outline btn-lg" style="border-color: #fff; color: #fff;">Get Involved</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="logo" style="margin-bottom: 1rem; display: inline-flex;">
+            <img src="Group 86.png" alt="BMCTG Logo" class="logo-img" />
+            <span>BMCTG</span>
+          </a>
+          <p style="font-size: 0.9rem; color: #999; line-height: 1.7; max-width: 280px;">Badhir Mandal Charitable Trust — Empowering the Deaf community through education, sports, awareness, and unwavering support. Registered under Gujarat Trusts Act.</p>
+        </div>
+        <div>
+          <h4 style="font-size: 1rem; font-weight: 700; margin-bottom: 1rem; color: #fff;">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="impact.html">Our Impact</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="font-size: 1rem; font-weight: 700; margin-bottom: 1rem; color: #fff;">Programs</h4>
+          <ul class="footer-links">
+            <li><a href="programs.html">Digital Literacy</a></li>
+            <li><a href="programs.html">Sports Training</a></li>
+            <li><a href="programs.html">ISL Awareness</a></li>
+            <li><a href="programs.html">Vocational Skills</a></li>
+            <li><a href="programs.html">Community Events</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="font-size: 1rem; font-weight: 700; margin-bottom: 1rem; color: #fff;">Connect</h4>
+          <p style="font-size: 0.9rem; color: #999; line-height: 1.7; margin-bottom: 1rem;">Gandhinagar, Gujarat, India</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="YouTube">YT</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 BMCTG – Badhir Mandal Charitable Trust. All rights reserved. Reg. No. A/1075</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
