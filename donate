@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta name="description" content="Donate to Badhir Mandal Charitable Trust, Gandhinagar — support education, sports and welfare programs for the deaf and mute community."/>
+<title>Donate | BMCTG</title>
+<link rel="icon" href="Group 86.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+
+</head>
+<body>
+
+<!-- 1. Preloader -->
+<div class="preloader" id="preloader"><div class="preloader-spinner"></div></div>
+
+<!-- 2. Topbar + Language Switch -->
+<header class="topbar">
+  <div class="container">
+    <div class="topbar-left">
+      <span>BMCTG &mdash; Together We Rise</span>
+      <span>Gandhinagar, Gujarat</span>
+    </div>
+    <div class="topbar-right">
+      <div class="lang-switch">
+        <button class="active">English</button>
+        <button>ગુજરાતી</button>
+        <button>ISL</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- 3. Navbar -->
+<nav id="navbar">
+  <div class="container navin">
+    <a href="index.html" class="logo">
+      <img src="Group 86.png" alt="BMCTG Logo" class="logo-img"/>
+      <div>BMCTG<small>Charitable Trust</small></div>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="sports.html">Sports</a>
+      <a href="impact.html">Impact</a>
+      <a href="donate.html" class="active">Donate</a>
+      <a href="contact.html">Contact</a>
+      <a href="donate.html" class="btn btn-accent btn-sm">Donate</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- ===== PAGE HERO ===== -->
+<section class="page-hero">
+  <div class="container">
+    <h1 class="reveal">Support BMCTG</h1>
+    <p class="reveal delay-1">Your contribution creates lasting impact</p>
+  </div>
+</section>
+
+<!-- ===== 4. DONATION OPTIONS ===== -->
+<section class="section">
+  <div class="container">
+    <div class="section-center reveal">
+      <div class="section-tag">Donate</div>
+      <h2 class="section-title">Choose how you want to help</h2>
+      <p class="section-desc">Every contribution, large or small, directly supports the deaf and mute community in Gandhinagar. Pick the method that works best for you.</p>
+    </div>
+
+    <div class="donate-grid">
+
+      <!-- UPI Donation Card -->
+      <div class="donate-card reveal delay-1">
+        <div class="donate-card__header">
+          <h3>📱 UPI Donation</h3>
+          <p>Scan the QR code or use our UPI ID to donate instantly.</p>
+        </div>
+        <div class="donate-card__body">
+          <div class="qr-placeholder" aria-label="QR Code placeholder">QR</div>
+          <div class="upi-id-box">
+            <span>UPI ID</span>
+            <strong>bmctg@upi</strong>
+          </div>
+          <a href="contact.html" class="btn btn-primary btn-lg" style="width:100%">Donate via UPI</a>
+        </div>
+      </div>
+
+      <!-- Bank Transfer Card -->
+      <div class="donate-card reveal delay-2">
+        <div class="donate-card__header">
+          <h3>🏦 Bank Transfer</h3>
+          <p>Donate directly via bank transfer using the details below.</p>
+        </div>
+        <div class="donate-card__body">
+          <div class="bank-detail">
+            <span class="bank-detail__label">Account Name</span>
+            <span class="bank-detail__value">Badhir Mandal Charitable Trust</span>
+          </div>
+          <div class="bank-detail">
+            <span class="bank-detail__label">Bank Name</span>
+            <span class="bank-detail__value">[Bank Name]</span>
+          </div>
+          <div class="bank-detail">
+            <span class="bank-detail__label">Account No.</span>
+            <span class="bank-detail__value">[Account Number]</span>
+          </div>
+          <div class="bank-detail">
+            <span class="bank-detail__label">IFSC Code</span>
+            <span class="bank-detail__value">[IFSC Code]</span>
+          </div>
+          <div style="margin-top:24px">
+            <a href="contact.html" class="btn btn-primary btn-lg" style="width:100%">Donate via Bank Transfer</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== 5. SPONSORSHIP TIERS ===== -->
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-center reveal">
+      <div class="section-tag accent">Sponsorship</div>
+      <h2 class="section-title">Sponsor a Deaf Athlete</h2>
+      <p class="section-desc">Help a deaf athlete reach their full potential. Choose a sponsorship tier and directly fund their training, equipment and tournament participation.</p>
+    </div>
+
+    <div class="tier-grid">
+
+      <!-- Tier 1 -->
+      <div class="tier-card reveal delay-1">
+        <div class="tier-card__name">Supporter</div>
+        <div class="tier-card__price">&#8377;5,000</div>
+        <div class="tier-card__desc">Sports Equipment</div>
+        <ul class="tier-card__features">
+          <li>Sports kit for one athlete</li>
+          <li>Training accessories</li>
+          <li>Donation receipt</li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary btn-md" style="width:100%">Sponsor Now</a>
+      </div>
+
+      <!-- Tier 2 -->
+      <div class="tier-card reveal delay-2">
+        <div class="tier-card__name">Champion</div>
+        <div class="tier-card__price">&#8377;10,000</div>
+        <div class="tier-card__desc">Training Support</div>
+        <ul class="tier-card__features">
+          <li>Monthly training sponsorship</li>
+          <li>Coaching sessions access</li>
+          <li>Donation receipt</li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary btn-md" style="width:100%">Sponsor Now</a>
+      </div>
+
+      <!-- Tier 3 -->
+      <div class="tier-card reveal delay-3">
+        <div class="tier-card__name">Contender</div>
+        <div class="tier-card__price">&#8377;25,000</div>
+        <div class="tier-card__desc">Tournament Support</div>
+        <ul class="tier-card__features">
+          <li>Tournament entry fees covered</li>
+          <li>Travel &amp; accommodation</li>
+          <li>Full kit &amp; equipment</li>
+          <li>Donation receipt</li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary btn-md" style="width:100%">Sponsor Now</a>
+      </div>
+
+      <!-- Tier 4 — Featured -->
+      <div class="tier-card featured reveal delay-4">
+        <div class="tier-card__name">Team Sponsor</div>
+        <div class="tier-card__price">&#8377;50,000</div>
+        <div class="tier-card__desc">Team Sponsorship</div>
+        <ul class="tier-card__features">
+          <li>Sponsor an entire team</li>
+          <li>All equipment &amp; kits</li>
+          <li>Tournament travel costs</li>
+          <li>Name on team banner</li>
+          <li>Donation receipt</li>
+        </ul>
+        <a href="contact.html" class="btn btn-accent btn-md" style="width:100%">Sponsor Now</a>
+      </div>
+
+      <!-- Tier 5 -->
+      <div class="tier-card reveal delay-1">
+        <div class="tier-card__name">Major Sponsor</div>
+        <div class="tier-card__price">&#8377;1,00,000</div>
+        <div class="tier-card__desc">Major Program Sponsorship</div>
+        <ul class="tier-card__features">
+          <li>Sponsor an entire program</li>
+          <li>All team expenses covered</li>
+          <li>Logo on event materials</li>
+          <li>VIP event invitations</li>
+          <li>Annual impact report</li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary btn-md" style="width:100%">Sponsor Now</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== 6. SPONSOR A PROGRAM ===== -->
+<section class="section">
+  <div class="container">
+    <div class="section-center reveal">
+      <div class="section-tag purple">Programs</div>
+      <h2 class="section-title">Sponsor a Program</h2>
+      <p class="section-desc">Choose a program to sponsor and make a direct, measurable impact on the lives of deaf and mute individuals in Gandhinagar.</p>
+    </div>
+
+    <div class="program-sponsor-grid">
+
+      <div class="program-sponsor-card reveal delay-1">
+        <div class="program-sponsor-card__icon">🏏</div>
+        <h3>Sponsor Deaf Cricket</h3>
+        <p>Fund cricket training, equipment, tournament participation and travel for our deaf cricket teams.</p>
+        <a href="contact.html" class="btn btn-outline btn-md">Learn More</a>
+      </div>
+
+      <div class="program-sponsor-card reveal delay-2">
+        <div class="program-sponsor-card__icon">🎓</div>
+        <h3>Sponsor Education</h3>
+        <p>Support deaf education programs including learning materials, assistive technology and skilled educators.</p>
+        <a href="contact.html" class="btn btn-outline btn-md">Learn More</a>
+      </div>
+
+      <div class="program-sponsor-card reveal delay-3">
+        <div class="program-sponsor-card__icon">🏆</div>
+        <h3>Sponsor a Tournament</h3>
+        <p>Fund deaf sports tournaments — venue, logistics, medals, officiating and athlete accommodation.</p>
+        <a href="contact.html" class="btn btn-outline btn-md">Learn More</a>
+      </div>
+
+      <div class="program-sponsor-card reveal delay-4">
+        <div class="program-sponsor-card__icon">👐</div>
+        <h3>Sponsor Deaf Awareness</h3>
+        <p>Support deaf awareness campaigns, sign language workshops and community outreach initiatives.</p>
+        <a href="contact.html" class="btn btn-outline btn-md">Learn More</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== 7. WHY DONATE ===== -->
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-center reveal">
+      <div class="section-tag">Why Donate</div>
+      <h2 class="section-title">Why your donation matters</h2>
+      <p class="section-desc">Your support is more than a donation — it is a partnership in building a more inclusive, accessible world for the deaf community.</p>
+    </div>
+
+    <div class="why-grid">
+
+      <div class="why-card reveal delay-1">
+        <div class="why-card__icon">📋</div>
+        <h3>Tax Benefits</h3>
+        <p>Donations to BMCTG are eligible for tax deduction under Section 80G of the Income Tax Act. Receive your receipt instantly.</p>
+      </div>
+
+      <div class="why-card reveal delay-2">
+        <div class="why-card__icon">🔍</div>
+        <h3>Transparency</h3>
+        <p>We maintain complete financial transparency with regular reports on how every rupee is spent. You see the impact.</p>
+      </div>
+
+      <div class="why-card reveal delay-3">
+        <div class="why-card__icon">🎯</div>
+        <h3>Direct Impact</h3>
+        <p>Your donation goes directly to programs — equipment, training, education and events — with minimal overhead.</p>
+      </div>
+
+      <div class="why-card reveal delay-4">
+        <div class="why-card__icon">🤝</div>
+        <h3>Community Trust</h3>
+        <p>BMCTG is a registered trust (A/1075) with deep roots in Gandhinagar. We are accountable to the community we serve.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== 8. CTA BANNER ===== -->
+<section class="section">
+  <div class="container">
+    <div class="cta-banner reveal">
+      <h2>Every contribution matters</h2>
+      <p>Whether it is equipment for an athlete, books for a student, or awareness for the community — your generosity creates real, lasting change.</p>
+      <a href="contact.html" class="btn btn-accent btn-lg">Contact Us to Donate</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 9. FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer__brand">
+        <h3>BMCTG</h3>
+        <p>Badhir Mandal Charitable Trust is dedicated to empowering the deaf and mute community through deaf culture, sports, education, and inclusive advocacy across Gandhinagar and Gujarat.</p>
+        <p style="margin-top:12px">Registration No. A/1075</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Quick Links</h4>
+        <div class="footer__links">
+          <a href="about.html">About Us</a>
+          <a href="team.html">Our Team</a>
+          <a href="programs.html">Programs</a>
+          <a href="sports.html">Sports</a>
+          <a href="impact.html">Impact</a>
+          <a href="donate.html">Donate</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Programs</h4>
+        <div class="footer__links">
+          <a href="programs.html">Deaf Education</a>
+          <a href="programs.html">Life Skills</a>
+          <a href="programs.html">ISL Interpretation</a>
+          <a href="programs.html">Adult Education</a>
+          <a href="programs.html">Employment Support</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Contact</h4>
+        <div class="footer__links">
+          <a href="mailto:badhirmorgujarat@gmail.com">badhirmorgujarat@gmail.com</a>
+          <a href="tel:+919925043716">+91 99250 43716</a>
+          <span>Gandhinagar, Gujarat, India</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2025 Badhir Mandal Charitable Trust. All rights reserved.</p>
+      <div class="footer__bottom-links">
+        <span>Registered under Gujarat Charity Commissioner</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
+
+<script src="script.js"></script>
+</body>
+</html>
