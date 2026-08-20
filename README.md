@@ -1,1 +1,0 @@
-#NGO and Non-Profit
