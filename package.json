@@ -1,0 +1,16 @@
+{
+  "name": "bmctg-website",
+  "version": "1.0.0",
+  "description": "Badhir Mandal Charitable Trust, Gandhinagar — official website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["charitable-trust", "bmctg", "gandhinagar"],
+  "author": "BMCTG",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
