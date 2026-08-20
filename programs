@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta name="description" content="Programs by Badhir Mandal Charitable Trust, Gandhinagar — eight pillars of community development for the deaf and mute community. Registration No. A/1075."/>
+<title>Programs | BMCTG — Badhir Mandal Charitable Trust</title>
+<link rel="icon" href="Group 86.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<!-- ===== 1. Preloader ===== -->
+<div class="preloader" id="preloader"><div class="preloader-spinner"></div></div>
+
+<!-- ===== 2. Topbar ===== -->
+<header class="topbar">
+  <div class="container">
+    <div class="topbar-left">
+      <span>BMCTG &mdash; Together We Rise</span>
+      <span>Gandhinagar, Gujarat</span>
+    </div>
+    <div class="topbar-right">
+      <div class="lang-switch">
+        <button class="active">ગુજરાતી</button>
+        <button>English</button>
+        <button>ISL</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===== 3. Navbar ===== -->
+<nav id="navbar">
+  <div class="container navin">
+    <a href="index.html" class="logo">
+      <img src="Group 86.png" alt="BMCTG Logo" class="logo-img"/>
+      <div>BMCTG<small>Charitable Trust</small></div>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="sports.html">Sports</a>
+      <a href="programs.html" class="active">Programs</a>
+      <a href="impact.html">Impact</a>
+      <a href="team.html">Team</a>
+      <a href="contact.html">Contact</a>
+      <a href="donate.html" class="btn btn-accent btn-sm">Donate</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- ===== 4. Page Hero ===== -->
+<section class="page-hero">
+  <div class="container">
+    <h1 class="reveal page-hero__title">Our Programs</h1>
+    <p class="reveal delay-1 page-hero__desc">Learn. Develop. Empower.</p>
+    <div class="reveal delay-2 page-hero__breadcrumb">
+      <a href="index.html">Home</a>
+      <span class="separator">&#8250;</span>
+      <span>Programs</span>
+    </div>
+  </div>
+  <div class="page-hero__wave">
+    <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+      <path d="M0 80L60 73.3C120 66.7 240 53.3 360 46.7C480 40 600 40 720 46.7C840 53.3 960 66.7 1080 66.7C1200 66.7 1320 53.3 1380 46.7L1440 40V80H1380C1320 80 1200 80 1080 80C960 80 840 80 720 80C600 80 480 80 360 80C240 80 120 80 60 80H0Z" fill="#fff"/>
+    </svg>
+  </div>
+</section>
+
+<!-- ===== 5. Programs Intro + 8 Program Cards ===== -->
+<section class="section" id="programs">
+  <div class="container">
+    <div class="section-center reveal">
+      <div class="section-tag accent">What We Do</div>
+      <h2 class="section-title">Eight pillars of community development</h2>
+      <p class="section-desc">Our programs address the diverse needs of the deaf and mute community — from sports and education to employment, awareness, and community support. Each initiative is designed to create lasting, meaningful impact.</p>
+    </div>
+
+    <div class="program-grid" style="grid-template-columns:repeat(2,1fr);gap:24px;margin-top:48px;">
+
+      <!-- 01 — Deaf Sports Development -->
+      <article class="program-card reveal delay-1">
+        <div class="program-icon">🏏</div>
+        <h3>01 — Deaf Sports Development</h3>
+        <p>Sports training, tournaments, equipment and athlete development — building confidence, teamwork and excellence for deaf athletes across Gujarat.</p>
+      </article>
+
+      <!-- 02 — Deaf Culture & Community -->
+      <article class="program-card reveal delay-2">
+        <div class="program-icon">👐</div>
+        <h3>02 — Deaf Culture &amp; Community</h3>
+        <p>Preserving and celebrating Deaf culture and Sign Language through community events, cultural gatherings and awareness initiatives.</p>
+      </article>
+
+      <!-- 03 — Youth Empowerment -->
+      <article class="program-card reveal delay-3">
+        <div class="program-icon">🌟</div>
+        <h3>03 — Youth Empowerment</h3>
+        <p>Leadership, sports, education and confidence-building for young deaf people — preparing the next generation to lead and thrive.</p>
+      </article>
+
+      <!-- 04 — Education & Skills -->
+      <article class="program-card reveal delay-4">
+        <div class="program-icon">🎓</div>
+        <h3>04 — Education &amp; Skills</h3>
+        <p>Digital literacy, vocational skills and career development for deaf individuals — opening doors to knowledge and opportunity.</p>
+      </article>
+
+      <!-- 05 — Employment Support -->
+      <article class="program-card reveal delay-1">
+        <div class="program-icon">💼</div>
+        <h3>05 — Employment Support</h3>
+        <p>Connecting deaf people with employment and professional opportunities — bridging the gap between talent and workplace inclusion.</p>
+      </article>
+
+      <!-- 06 — Deaf Awareness -->
+      <article class="program-card reveal delay-2">
+        <div class="program-icon">📢</div>
+        <h3>06 — Deaf Awareness</h3>
+        <p>Creating awareness about Deaf communication, accessibility and inclusion — educating society and breaking down barriers.</p>
+      </article>
+
+      <!-- 07 — Women Empowerment -->
+      <article class="program-card reveal delay-3">
+        <div class="program-icon">👩</div>
+        <h3>07 — Women Empowerment</h3>
+        <p>Programs supporting deaf women's participation, independence and leadership — ensuring every woman has a voice and a path forward.</p>
+      </article>
+
+      <!-- 08 — Community Support -->
+      <article class="program-card reveal delay-4">
+        <div class="program-icon">🤝</div>
+        <h3>08 — Community Support</h3>
+        <p>Activities and assistance designed around the needs of the Deaf community — fostering belonging, well-being and mutual support.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== 6. Impact Counters ===== -->
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-center reveal">
+      <div class="section-tag">Impact</div>
+      <h2 class="section-title">Our Programs Make a Difference</h2>
+      <p class="section-desc">Every number represents a life touched, a barrier removed and a community strengthened through our programs.</p>
+    </div>
+
+    <div class="impact-grid">
+      <div class="impact-item reveal delay-1">
+        <div class="impact-item__number"><span class="impact-number" data-count="400">0</span></div>
+        <div class="impact-item__label">Individuals Supported</div>
+      </div>
+      <div class="impact-item reveal delay-2">
+        <div class="impact-item__number"><span class="impact-number" data-count="300">0</span></div>
+        <div class="impact-item__label">Families Reached</div>
+      </div>
+      <div class="impact-item reveal delay-3">
+        <div class="impact-item__number"><span class="impact-number" data-count="8">0</span></div>
+        <div class="impact-item__label">Active Programs</div>
+      </div>
+      <div class="impact-item reveal delay-4">
+        <div class="impact-item__number"><span class="impact-number" data-count="12">0</span></div>
+        <div class="impact-item__label">Years of Service</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 7. CTA — Get Involved ===== -->
+<section class="section section--navy">
+  <div class="container section-center">
+    <div class="reveal">
+      <div class="section-tag" style="background:rgba(255,255,255,0.08);color:var(--accent);">Get Involved</div>
+      <h2 class="section-title" style="color:var(--white);margin-bottom:16px;">Be Part of the Change</h2>
+      <p class="section-desc" style="color:rgba(255,255,255,0.65);margin:0 auto 36px;max-width:560px;">Whether you join as a member or volunteer your time, your support helps us empower the deaf and mute community across Gandhinagar and Gujarat.</p>
+    </div>
+    <div class="d-flex flex-center gap-2 reveal delay-1" style="flex-wrap:wrap;">
+      <a href="team.html" class="btn btn-white btn-lg">Become a Member</a>
+      <a href="contact.html" class="btn btn-outline btn-lg" style="color:#fff;border-color:rgba(255,255,255,0.3);">Volunteer With Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 8. Footer ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer__brand">
+        <h3>BMCTG</h3>
+        <p>Badhir Mandal Charitable Trust is dedicated to empowering the deaf and mute community through deaf culture, sports, education, and inclusive advocacy across Gandhinagar and Gujarat.</p>
+        <p style="margin-top:12px;color:rgba(255,255,255,0.45);font-size:0.82rem;">Registration No. A/1075</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Quick Links</h4>
+        <div class="footer__links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="team.html">Our Team</a>
+          <a href="programs.html">Programs</a>
+          <a href="sports.html">Sports</a>
+          <a href="impact.html">Impact</a>
+          <a href="donate.html">Donate</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Programs</h4>
+        <div class="footer__links">
+          <a href="programs.html">Deaf Sports Development</a>
+          <a href="programs.html">Deaf Culture &amp; Community</a>
+          <a href="programs.html">Youth Empowerment</a>
+          <a href="programs.html">Education &amp; Skills</a>
+          <a href="programs.html">Employment Support</a>
+          <a href="programs.html">Women Empowerment</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Contact</h4>
+        <div class="footer__links">
+          <a href="mailto:badhirmorgujarat@gmail.com">badhirmorgujarat@gmail.com</a>
+          <a href="tel:+919925043716">+91 99250 43716</a>
+          <span style="color:rgba(255,255,255,0.5);font-size:0.88rem;">Gandhinagar, Gujarat, India</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2025 Badhir Mandal Charitable Trust. All rights reserved.</p>
+      <div class="footer__bottom-links">
+        <span>Registered under Gujarat Charity Commissioner</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
+
+<script src="script.js"></script>
+</body>
+</html>
