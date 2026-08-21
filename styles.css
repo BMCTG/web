@@ -9,6 +9,7 @@
   --primary-light: #00a3cc;
   --accent: #e7b64a;
   --accent-dark: #d4a030;
+  --red: #F32720;
   --navy: #0a2540;
   --ink: #1a1a2e;
   --muted: #6b7b8d;
@@ -60,7 +61,7 @@ nav.scrolled{background:rgba(255,255,255,.96);border-bottom-color:var(--line);bo
 .logo{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--navy);font-size:1rem;transition:transform var(--transition)}
 .logo:hover{transform:scale(1.02)}
 .logo small{display:block;font-size:.68rem;color:var(--muted);font-weight:500;letter-spacing:.03em}
-.logo-img{height:42px;width:auto}
+.logo-img{height:62px;width:auto}
 .nav-links{display:flex;align-items:center;gap:4px;font-size:.88rem;font-weight:600}
 .nav-links a{padding:8px 12px;border-radius:8px;transition:all var(--transition);white-space:nowrap}
 .nav-links a:hover{color:var(--primary);background:var(--soft)}
@@ -240,7 +241,7 @@ section{padding:100px 0}
 .check-icon{width:28px;height:28px;border-radius:8px;background:rgba(0,128,168,.1);display:grid;place-items:center;color:var(--primary);font-size:.85rem;font-weight:700;flex-shrink:0}
 .check p{margin:0;color:var(--ink);font-size:.95rem;line-height:1.6}
 .about-visual{position:relative}
-.about-img-placeholder{background:linear-gradient(135deg,var(--navy),var(--primary));border-radius:var(--radius-lg);padding:40px;color:#fff;min-height:380px;display:flex;flex-direction:column;justify-content:flex-end;position:relative;overflow:hidden}
+.about-img-placeholder{background:linear-gradient(135deg,var(--white),var(--soft));border:2px solid var(--line);border-radius:var(--radius-lg);padding:40px;color:#fff;min-height:380px;display:flex;flex-direction:column;justify-content:flex-end;position:relative;overflow:hidden}
 .about-img-placeholder::before{content:"";position:absolute;width:200px;height:200px;border-radius:50%;background:rgba(255,255,255,.06);right:-40px;top:-40px}
 .about-quote{font-size:1.3rem;font-weight:700;line-height:1.4;position:relative;z-index:1}
 .about-quote-author{margin-top:16px;font-size:.9rem;color:rgba(255,255,255,.7);position:relative;z-index:1}
@@ -308,10 +309,10 @@ section{padding:100px 0}
 .upi-id-box{background:var(--soft);border:1.5px solid var(--line);border-radius:12px;padding:16px 20px;text-align:center;margin-bottom:24px}
 .upi-id-box span{font-size:.82rem;color:var(--muted);display:block;margin-bottom:4px}
 .upi-id-box strong{font-size:1.1rem;color:var(--navy);letter-spacing:.5px}
-.bank-detail{display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-bottom:1px solid var(--line)}
+.bank-detail{display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-bottom:1px solid var(--line);gap:12px}
 .bank-detail:last-child{border-bottom:none}
 .bank-detail__label{font-size:.88rem;color:var(--muted)}
-.bank-detail__value{font-size:.95rem;font-weight:700;color:var(--navy);text-align:right}
+.bank-detail__value{font-size:.95rem;font-weight:700;color:var(--navy);text-align:left}
 
 /* ── Sponsorship Tiers ── */
 .tier-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:20px;margin-top:48px}
